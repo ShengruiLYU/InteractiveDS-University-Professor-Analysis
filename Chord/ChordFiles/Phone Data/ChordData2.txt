@@ -1,0 +1,400 @@
+0	Carnegie Mellon University	0	Carnegie Mellon University	0.030418250950570342	1	Carnegie Mellon University	Carnegie Mellon University
+0	Carnegie Mellon University	1	Massachusetts Institute of Technology	0.0025348542458808617	1	Carnegie Mellon University	Massachusetts Institute of Technology
+0	Carnegie Mellon University	2	Stanford University	0.0076045627376425855	1	Carnegie Mellon University	Stanford University
+0	Carnegie Mellon University	3	University of California - Berkeley	0.005069708491761723	1	Carnegie Mellon University	University of California - Berkeley
+0	Carnegie Mellon University	4	University of Illinois at Urbana-Champaign	0.0038022813688212928	1	Carnegie Mellon University	University of Illinois at Urbana-Champaign
+0	Carnegie Mellon University	5	Cornell University	0.0	1	Carnegie Mellon University	Cornell University
+0	Carnegie Mellon University	6	Georgia Institute of Technology	0.012674271229404309	1	Carnegie Mellon University	Georgia Institute of Technology
+0	Carnegie Mellon University	7	University of Washington	0.005069708491761723	1	Carnegie Mellon University	University of Washington
+0	Carnegie Mellon University	8	University of Michigan	0.0063371356147021544	1	Carnegie Mellon University	University of Michigan
+0	Carnegie Mellon University	9	University of Maryland - College Park	0.0025348542458808617	1	Carnegie Mellon University	University of Maryland - College Park
+0	Carnegie Mellon University	10	University of California - Los Angeles	0.0025348542458808617	1	Carnegie Mellon University	University of California - Los Angeles
+0	Carnegie Mellon University	11	University of California - San Diego	0.0012674271229404308	1	Carnegie Mellon University	University of California - San Diego
+0	Carnegie Mellon University	12	University of Southern California	0.010139416983523447	1	Carnegie Mellon University	University of Southern California
+0	Carnegie Mellon University	13	University of Texas - Austin	0.0012674271229404308	1	Carnegie Mellon University	University of Texas - Austin
+0	Carnegie Mellon University	14	Columbia University	0.0038022813688212928	1	Carnegie Mellon University	Columbia University
+0	Carnegie Mellon University	15	Princeton University	0.0025348542458808617	1	Carnegie Mellon University	Princeton University
+0	Carnegie Mellon University	16	University of California - Irvine	0.0	1	Carnegie Mellon University	University of California - Irvine
+0	Carnegie Mellon University	17	Northwestern University	0.0038022813688212928	1	Carnegie Mellon University	Northwestern University
+0	Carnegie Mellon University	18	University of Pennsylvania	0.0025348542458808617	1	Carnegie Mellon University	University of Pennsylvania
+0	Carnegie Mellon University	19	Yale University	0.0012674271229404308	1	Carnegie Mellon University	Yale University
+1	Massachusetts Institute of Technology	0	Carnegie Mellon University	0.024081115335868188	1	Massachusetts Institute of Technology	Carnegie Mellon University
+1	Massachusetts Institute of Technology	1	Massachusetts Institute of Technology	0.03929024081115336	1	Massachusetts Institute of Technology	Massachusetts Institute of Technology
+1	Massachusetts Institute of Technology	2	Stanford University	0.0076045627376425855	1	Massachusetts Institute of Technology	Stanford University
+1	Massachusetts Institute of Technology	3	University of California - Berkeley	0.011406844106463879	1	Massachusetts Institute of Technology	University of California - Berkeley
+1	Massachusetts Institute of Technology	4	University of Illinois at Urbana-Champaign	0.0038022813688212928	1	Massachusetts Institute of Technology	University of Illinois at Urbana-Champaign
+1	Massachusetts Institute of Technology	5	Cornell University	0.008871989860583017	1	Massachusetts Institute of Technology	Cornell University
+1	Massachusetts Institute of Technology	6	Georgia Institute of Technology	0.015209125475285171	1	Massachusetts Institute of Technology	Georgia Institute of Technology
+1	Massachusetts Institute of Technology	7	University of Washington	0.008871989860583017	1	Massachusetts Institute of Technology	University of Washington
+1	Massachusetts Institute of Technology	8	University of Michigan	0.008871989860583017	1	Massachusetts Institute of Technology	University of Michigan
+1	Massachusetts Institute of Technology	9	University of Maryland - College Park	0.0076045627376425855	1	Massachusetts Institute of Technology	University of Maryland - College Park
+1	Massachusetts Institute of Technology	10	University of California - Los Angeles	0.0063371356147021544	1	Massachusetts Institute of Technology	University of California - Los Angeles
+1	Massachusetts Institute of Technology	11	University of California - San Diego	0.0076045627376425855	1	Massachusetts Institute of Technology	University of California - San Diego
+1	Massachusetts Institute of Technology	12	University of Southern California	0.005069708491761723	1	Massachusetts Institute of Technology	University of Southern California
+1	Massachusetts Institute of Technology	13	University of Texas - Austin	0.0076045627376425855	1	Massachusetts Institute of Technology	University of Texas - Austin
+1	Massachusetts Institute of Technology	14	Columbia University	0.0063371356147021544	1	Massachusetts Institute of Technology	Columbia University
+1	Massachusetts Institute of Technology	15	Princeton University	0.005069708491761723	1	Massachusetts Institute of Technology	Princeton University
+1	Massachusetts Institute of Technology	16	University of California - Irvine	0.0063371356147021544	1	Massachusetts Institute of Technology	University of California - Irvine
+1	Massachusetts Institute of Technology	17	Northwestern University	0.010139416983523447	1	Massachusetts Institute of Technology	Northwestern University
+1	Massachusetts Institute of Technology	18	University of Pennsylvania	0.005069708491761723	1	Massachusetts Institute of Technology	University of Pennsylvania
+1	Massachusetts Institute of Technology	19	Yale University	0.0063371356147021544	1	Massachusetts Institute of Technology	Yale University
+2	Stanford University	0	Carnegie Mellon University	0.016476552598225603	1	Stanford University	Carnegie Mellon University
+2	Stanford University	1	Massachusetts Institute of Technology	0.019011406844106463	1	Stanford University	Massachusetts Institute of Technology
+2	Stanford University	2	Stanford University	0.010139416983523447	1	Stanford University	Stanford University
+2	Stanford University	3	University of California - Berkeley	0.011406844106463879	1	Stanford University	University of California - Berkeley
+2	Stanford University	4	University of Illinois at Urbana-Champaign	0.0076045627376425855	1	Stanford University	University of Illinois at Urbana-Champaign
+2	Stanford University	5	Cornell University	0.005069708491761723	1	Stanford University	Cornell University
+2	Stanford University	6	Georgia Institute of Technology	0.0025348542458808617	1	Stanford University	Georgia Institute of Technology
+2	Stanford University	7	University of Washington	0.0076045627376425855	1	Stanford University	University of Washington
+2	Stanford University	8	University of Michigan	0.0038022813688212928	1	Stanford University	University of Michigan
+2	Stanford University	9	University of Maryland - College Park	0.0025348542458808617	1	Stanford University	University of Maryland - College Park
+2	Stanford University	10	University of California - Los Angeles	0.0038022813688212928	1	Stanford University	University of California - Los Angeles
+2	Stanford University	11	University of California - San Diego	0.010139416983523447	1	Stanford University	University of California - San Diego
+2	Stanford University	12	University of Southern California	0.0038022813688212928	1	Stanford University	University of Southern California
+2	Stanford University	13	University of Texas - Austin	0.0038022813688212928	1	Stanford University	University of Texas - Austin
+2	Stanford University	14	Columbia University	0.0063371356147021544	1	Stanford University	Columbia University
+2	Stanford University	15	Princeton University	0.008871989860583017	1	Stanford University	Princeton University
+2	Stanford University	16	University of California - Irvine	0.0038022813688212928	1	Stanford University	University of California - Irvine
+2	Stanford University	17	Northwestern University	0.0012674271229404308	1	Stanford University	Northwestern University
+2	Stanford University	18	University of Pennsylvania	0.0038022813688212928	1	Stanford University	University of Pennsylvania
+2	Stanford University	19	Yale University	0.0025348542458808617	1	Stanford University	Yale University
+3	University of California - Berkeley	0	Carnegie Mellon University	0.012674271229404309	1	University of California - Berkeley	Carnegie Mellon University
+3	University of California - Berkeley	1	Massachusetts Institute of Technology	0.015209125475285171	1	University of California - Berkeley	Massachusetts Institute of Technology
+3	University of California - Berkeley	2	Stanford University	0.008871989860583017	1	University of California - Berkeley	Stanford University
+3	University of California - Berkeley	3	University of California - Berkeley	0.016476552598225603	1	University of California - Berkeley	University of California - Berkeley
+3	University of California - Berkeley	4	University of Illinois at Urbana-Champaign	0.005069708491761723	1	University of California - Berkeley	University of Illinois at Urbana-Champaign
+3	University of California - Berkeley	5	Cornell University	0.0063371356147021544	1	University of California - Berkeley	Cornell University
+3	University of California - Berkeley	6	Georgia Institute of Technology	0.0063371356147021544	1	University of California - Berkeley	Georgia Institute of Technology
+3	University of California - Berkeley	7	University of Washington	0.010139416983523447	1	University of California - Berkeley	University of Washington
+3	University of California - Berkeley	8	University of Michigan	0.008871989860583017	1	University of California - Berkeley	University of Michigan
+3	University of California - Berkeley	9	University of Maryland - College Park	0.0038022813688212928	1	University of California - Berkeley	University of Maryland - College Park
+3	University of California - Berkeley	10	University of California - Los Angeles	0.0063371356147021544	1	University of California - Berkeley	University of California - Los Angeles
+3	University of California - Berkeley	11	University of California - San Diego	0.01394169835234474	1	University of California - Berkeley	University of California - San Diego
+3	University of California - Berkeley	12	University of Southern California	0.0063371356147021544	1	University of California - Berkeley	University of Southern California
+3	University of California - Berkeley	13	University of Texas - Austin	0.0025348542458808617	1	University of California - Berkeley	University of Texas - Austin
+3	University of California - Berkeley	14	Columbia University	0.0038022813688212928	1	University of California - Berkeley	Columbia University
+3	University of California - Berkeley	15	Princeton University	0.0038022813688212928	1	University of California - Berkeley	Princeton University
+3	University of California - Berkeley	16	University of California - Irvine	0.0076045627376425855	1	University of California - Berkeley	University of California - Irvine
+3	University of California - Berkeley	17	Northwestern University	0.0038022813688212928	1	University of California - Berkeley	Northwestern University
+3	University of California - Berkeley	18	University of Pennsylvania	0.0038022813688212928	1	University of California - Berkeley	University of Pennsylvania
+3	University of California - Berkeley	19	Yale University	0.0012674271229404308	1	University of California - Berkeley	Yale University
+4	University of Illinois at Urbana-Champaign	0	Carnegie Mellon University	0.0	1	University of Illinois at Urbana-Champaign	Carnegie Mellon University
+4	University of Illinois at Urbana-Champaign	1	Massachusetts Institute of Technology	0.0	1	University of Illinois at Urbana-Champaign	Massachusetts Institute of Technology
+4	University of Illinois at Urbana-Champaign	2	Stanford University	0.0	1	University of Illinois at Urbana-Champaign	Stanford University
+4	University of Illinois at Urbana-Champaign	3	University of California - Berkeley	0.0012674271229404308	1	University of Illinois at Urbana-Champaign	University of California - Berkeley
+4	University of Illinois at Urbana-Champaign	4	University of Illinois at Urbana-Champaign	0.0063371356147021544	1	University of Illinois at Urbana-Champaign	University of Illinois at Urbana-Champaign
+4	University of Illinois at Urbana-Champaign	5	Cornell University	0.0	1	University of Illinois at Urbana-Champaign	Cornell University
+4	University of Illinois at Urbana-Champaign	6	Georgia Institute of Technology	0.0038022813688212928	1	University of Illinois at Urbana-Champaign	Georgia Institute of Technology
+4	University of Illinois at Urbana-Champaign	7	University of Washington	0.0025348542458808617	1	University of Illinois at Urbana-Champaign	University of Washington
+4	University of Illinois at Urbana-Champaign	8	University of Michigan	0.0076045627376425855	1	University of Illinois at Urbana-Champaign	University of Michigan
+4	University of Illinois at Urbana-Champaign	9	University of Maryland - College Park	0.0012674271229404308	1	University of Illinois at Urbana-Champaign	University of Maryland - College Park
+4	University of Illinois at Urbana-Champaign	10	University of California - Los Angeles	0.0063371356147021544	1	University of Illinois at Urbana-Champaign	University of California - Los Angeles
+4	University of Illinois at Urbana-Champaign	11	University of California - San Diego	0.0012674271229404308	1	University of Illinois at Urbana-Champaign	University of California - San Diego
+4	University of Illinois at Urbana-Champaign	12	University of Southern California	0.0	1	University of Illinois at Urbana-Champaign	University of Southern California
+4	University of Illinois at Urbana-Champaign	13	University of Texas - Austin	0.0012674271229404308	1	University of Illinois at Urbana-Champaign	University of Texas - Austin
+4	University of Illinois at Urbana-Champaign	14	Columbia University	0.0	1	University of Illinois at Urbana-Champaign	Columbia University
+4	University of Illinois at Urbana-Champaign	15	Princeton University	0.0012674271229404308	1	University of Illinois at Urbana-Champaign	Princeton University
+4	University of Illinois at Urbana-Champaign	16	University of California - Irvine	0.0038022813688212928	1	University of Illinois at Urbana-Champaign	University of California - Irvine
+4	University of Illinois at Urbana-Champaign	17	Northwestern University	0.0038022813688212928	1	University of Illinois at Urbana-Champaign	Northwestern University
+4	University of Illinois at Urbana-Champaign	18	University of Pennsylvania	0.0	1	University of Illinois at Urbana-Champaign	University of Pennsylvania
+4	University of Illinois at Urbana-Champaign	19	Yale University	0.0	1	University of Illinois at Urbana-Champaign	Yale University
+5	Cornell University	0	Carnegie Mellon University	0.0038022813688212928	1	Cornell University	Carnegie Mellon University
+5	Cornell University	1	Massachusetts Institute of Technology	0.0012674271229404308	1	Cornell University	Massachusetts Institute of Technology
+5	Cornell University	2	Stanford University	0.0038022813688212928	1	Cornell University	Stanford University
+5	Cornell University	3	University of California - Berkeley	0.0	1	Cornell University	University of California - Berkeley
+5	Cornell University	4	University of Illinois at Urbana-Champaign	0.0012674271229404308	1	Cornell University	University of Illinois at Urbana-Champaign
+5	Cornell University	5	Cornell University	0.0038022813688212928	1	Cornell University	Cornell University
+5	Cornell University	6	Georgia Institute of Technology	0.0025348542458808617	1	Cornell University	Georgia Institute of Technology
+5	Cornell University	7	University of Washington	0.0012674271229404308	1	Cornell University	University of Washington
+5	Cornell University	8	University of Michigan	0.0012674271229404308	1	Cornell University	University of Michigan
+5	Cornell University	9	University of Maryland - College Park	0.0038022813688212928	1	Cornell University	University of Maryland - College Park
+5	Cornell University	10	University of California - Los Angeles	0.0	1	Cornell University	University of California - Los Angeles
+5	Cornell University	11	University of California - San Diego	0.0025348542458808617	1	Cornell University	University of California - San Diego
+5	Cornell University	12	University of Southern California	0.0025348542458808617	1	Cornell University	University of Southern California
+5	Cornell University	13	University of Texas - Austin	0.0038022813688212928	1	Cornell University	University of Texas - Austin
+5	Cornell University	14	Columbia University	0.0025348542458808617	1	Cornell University	Columbia University
+5	Cornell University	15	Princeton University	0.0012674271229404308	1	Cornell University	Princeton University
+5	Cornell University	16	University of California - Irvine	0.0	1	Cornell University	University of California - Irvine
+5	Cornell University	17	Northwestern University	0.0	1	Cornell University	Northwestern University
+5	Cornell University	18	University of Pennsylvania	0.0038022813688212928	1	Cornell University	University of Pennsylvania
+5	Cornell University	19	Yale University	0.0025348542458808617	1	Cornell University	Yale University
+6	Georgia Institute of Technology	0	Carnegie Mellon University	0.0038022813688212928	1	Georgia Institute of Technology	Carnegie Mellon University
+6	Georgia Institute of Technology	1	Massachusetts Institute of Technology	0.0	1	Georgia Institute of Technology	Massachusetts Institute of Technology
+6	Georgia Institute of Technology	2	Stanford University	0.0	1	Georgia Institute of Technology	Stanford University
+6	Georgia Institute of Technology	3	University of California - Berkeley	0.0012674271229404308	1	Georgia Institute of Technology	University of California - Berkeley
+6	Georgia Institute of Technology	4	University of Illinois at Urbana-Champaign	0.0012674271229404308	1	Georgia Institute of Technology	University of Illinois at Urbana-Champaign
+6	Georgia Institute of Technology	5	Cornell University	0.0	1	Georgia Institute of Technology	Cornell University
+6	Georgia Institute of Technology	6	Georgia Institute of Technology	0.011406844106463879	1	Georgia Institute of Technology	Georgia Institute of Technology
+6	Georgia Institute of Technology	7	University of Washington	0.0025348542458808617	1	Georgia Institute of Technology	University of Washington
+6	Georgia Institute of Technology	8	University of Michigan	0.0	1	Georgia Institute of Technology	University of Michigan
+6	Georgia Institute of Technology	9	University of Maryland - College Park	0.0012674271229404308	1	Georgia Institute of Technology	University of Maryland - College Park
+6	Georgia Institute of Technology	10	University of California - Los Angeles	0.0	1	Georgia Institute of Technology	University of California - Los Angeles
+6	Georgia Institute of Technology	11	University of California - San Diego	0.0	1	Georgia Institute of Technology	University of California - San Diego
+6	Georgia Institute of Technology	12	University of Southern California	0.0012674271229404308	1	Georgia Institute of Technology	University of Southern California
+6	Georgia Institute of Technology	13	University of Texas - Austin	0.0	1	Georgia Institute of Technology	University of Texas - Austin
+6	Georgia Institute of Technology	14	Columbia University	0.0	1	Georgia Institute of Technology	Columbia University
+6	Georgia Institute of Technology	15	Princeton University	0.0	1	Georgia Institute of Technology	Princeton University
+6	Georgia Institute of Technology	16	University of California - Irvine	0.0025348542458808617	1	Georgia Institute of Technology	University of California - Irvine
+6	Georgia Institute of Technology	17	Northwestern University	0.0063371356147021544	1	Georgia Institute of Technology	Northwestern University
+6	Georgia Institute of Technology	18	University of Pennsylvania	0.0	1	Georgia Institute of Technology	University of Pennsylvania
+6	Georgia Institute of Technology	19	Yale University	0.0	1	Georgia Institute of Technology	Yale University
+7	University of Washington	0	Carnegie Mellon University	0.0038022813688212928	1	University of Washington	Carnegie Mellon University
+7	University of Washington	1	Massachusetts Institute of Technology	0.0	1	University of Washington	Massachusetts Institute of Technology
+7	University of Washington	2	Stanford University	0.0012674271229404308	1	University of Washington	Stanford University
+7	University of Washington	3	University of California - Berkeley	0.0038022813688212928	1	University of Washington	University of California - Berkeley
+7	University of Washington	4	University of Illinois at Urbana-Champaign	0.0025348542458808617	1	University of Washington	University of Illinois at Urbana-Champaign
+7	University of Washington	5	Cornell University	0.0025348542458808617	1	University of Washington	Cornell University
+7	University of Washington	6	Georgia Institute of Technology	0.005069708491761723	1	University of Washington	Georgia Institute of Technology
+7	University of Washington	7	University of Washington	0.0025348542458808617	1	University of Washington	University of Washington
+7	University of Washington	8	University of Michigan	0.0012674271229404308	1	University of Washington	University of Michigan
+7	University of Washington	9	University of Maryland - College Park	0.0025348542458808617	1	University of Washington	University of Maryland - College Park
+7	University of Washington	10	University of California - Los Angeles	0.0012674271229404308	1	University of Washington	University of California - Los Angeles
+7	University of Washington	11	University of California - San Diego	0.008871989860583017	1	University of Washington	University of California - San Diego
+7	University of Washington	12	University of Southern California	0.0012674271229404308	1	University of Washington	University of Southern California
+7	University of Washington	13	University of Texas - Austin	0.0012674271229404308	1	University of Washington	University of Texas - Austin
+7	University of Washington	14	Columbia University	0.0025348542458808617	1	University of Washington	Columbia University
+7	University of Washington	15	Princeton University	0.0025348542458808617	1	University of Washington	Princeton University
+7	University of Washington	16	University of California - Irvine	0.0025348542458808617	1	University of Washington	University of California - Irvine
+7	University of Washington	17	Northwestern University	0.0025348542458808617	1	University of Washington	Northwestern University
+7	University of Washington	18	University of Pennsylvania	0.0025348542458808617	1	University of Washington	University of Pennsylvania
+7	University of Washington	19	Yale University	0.0	1	University of Washington	Yale University
+8	University of Michigan	0	Carnegie Mellon University	0.0025348542458808617	1	University of Michigan	Carnegie Mellon University
+8	University of Michigan	1	Massachusetts Institute of Technology	0.0	1	University of Michigan	Massachusetts Institute of Technology
+8	University of Michigan	2	Stanford University	0.0012674271229404308	1	University of Michigan	Stanford University
+8	University of Michigan	3	University of California - Berkeley	0.0	1	University of Michigan	University of California - Berkeley
+8	University of Michigan	4	University of Illinois at Urbana-Champaign	0.005069708491761723	1	University of Michigan	University of Illinois at Urbana-Champaign
+8	University of Michigan	5	Cornell University	0.0012674271229404308	1	University of Michigan	Cornell University
+8	University of Michigan	6	Georgia Institute of Technology	0.0038022813688212928	1	University of Michigan	Georgia Institute of Technology
+8	University of Michigan	7	University of Washington	0.0	1	University of Michigan	University of Washington
+8	University of Michigan	8	University of Michigan	0.0025348542458808617	1	University of Michigan	University of Michigan
+8	University of Michigan	9	University of Maryland - College Park	0.0	1	University of Michigan	University of Maryland - College Park
+8	University of Michigan	10	University of California - Los Angeles	0.0	1	University of Michigan	University of California - Los Angeles
+8	University of Michigan	11	University of California - San Diego	0.0	1	University of Michigan	University of California - San Diego
+8	University of Michigan	12	University of Southern California	0.0012674271229404308	1	University of Michigan	University of Southern California
+8	University of Michigan	13	University of Texas - Austin	0.0012674271229404308	1	University of Michigan	University of Texas - Austin
+8	University of Michigan	14	Columbia University	0.0	1	University of Michigan	Columbia University
+8	University of Michigan	15	Princeton University	0.0012674271229404308	1	University of Michigan	Princeton University
+8	University of Michigan	16	University of California - Irvine	0.0012674271229404308	1	University of Michigan	University of California - Irvine
+8	University of Michigan	17	Northwestern University	0.0025348542458808617	1	University of Michigan	Northwestern University
+8	University of Michigan	18	University of Pennsylvania	0.0	1	University of Michigan	University of Pennsylvania
+8	University of Michigan	19	Yale University	0.0	1	University of Michigan	Yale University
+9	University of Maryland - College Park	0	Carnegie Mellon University	0.0025348542458808617	1	University of Maryland - College Park	Carnegie Mellon University
+9	University of Maryland - College Park	1	Massachusetts Institute of Technology	0.0	1	University of Maryland - College Park	Massachusetts Institute of Technology
+9	University of Maryland - College Park	2	Stanford University	0.0	1	University of Maryland - College Park	Stanford University
+9	University of Maryland - College Park	3	University of California - Berkeley	0.0	1	University of Maryland - College Park	University of California - Berkeley
+9	University of Maryland - College Park	4	University of Illinois at Urbana-Champaign	0.0	1	University of Maryland - College Park	University of Illinois at Urbana-Champaign
+9	University of Maryland - College Park	5	Cornell University	0.0	1	University of Maryland - College Park	Cornell University
+9	University of Maryland - College Park	6	Georgia Institute of Technology	0.0012674271229404308	1	University of Maryland - College Park	Georgia Institute of Technology
+9	University of Maryland - College Park	7	University of Washington	0.0	1	University of Maryland - College Park	University of Washington
+9	University of Maryland - College Park	8	University of Michigan	0.0012674271229404308	1	University of Maryland - College Park	University of Michigan
+9	University of Maryland - College Park	9	University of Maryland - College Park	0.005069708491761723	1	University of Maryland - College Park	University of Maryland - College Park
+9	University of Maryland - College Park	10	University of California - Los Angeles	0.0	1	University of Maryland - College Park	University of California - Los Angeles
+9	University of Maryland - College Park	11	University of California - San Diego	0.0	1	University of Maryland - College Park	University of California - San Diego
+9	University of Maryland - College Park	12	University of Southern California	0.0	1	University of Maryland - College Park	University of Southern California
+9	University of Maryland - College Park	13	University of Texas - Austin	0.0012674271229404308	1	University of Maryland - College Park	University of Texas - Austin
+9	University of Maryland - College Park	14	Columbia University	0.0	1	University of Maryland - College Park	Columbia University
+9	University of Maryland - College Park	15	Princeton University	0.0	1	University of Maryland - College Park	Princeton University
+9	University of Maryland - College Park	16	University of California - Irvine	0.0012674271229404308	1	University of Maryland - College Park	University of California - Irvine
+9	University of Maryland - College Park	17	Northwestern University	0.0	1	University of Maryland - College Park	Northwestern University
+9	University of Maryland - College Park	18	University of Pennsylvania	0.0012674271229404308	1	University of Maryland - College Park	University of Pennsylvania
+9	University of Maryland - College Park	19	Yale University	0.0	1	University of Maryland - College Park	Yale University
+10	University of California - Los Angeles	0	Carnegie Mellon University	0.0012674271229404308	1	University of California - Los Angeles	Carnegie Mellon University
+10	University of California - Los Angeles	1	Massachusetts Institute of Technology	0.0	1	University of California - Los Angeles	Massachusetts Institute of Technology
+10	University of California - Los Angeles	2	Stanford University	0.0025348542458808617	1	University of California - Los Angeles	Stanford University
+10	University of California - Los Angeles	3	University of California - Berkeley	0.0012674271229404308	1	University of California - Los Angeles	University of California - Berkeley
+10	University of California - Los Angeles	4	University of Illinois at Urbana-Champaign	0.0	1	University of California - Los Angeles	University of Illinois at Urbana-Champaign
+10	University of California - Los Angeles	5	Cornell University	0.0	1	University of California - Los Angeles	Cornell University
+10	University of California - Los Angeles	6	Georgia Institute of Technology	0.0	1	University of California - Los Angeles	Georgia Institute of Technology
+10	University of California - Los Angeles	7	University of Washington	0.0	1	University of California - Los Angeles	University of Washington
+10	University of California - Los Angeles	8	University of Michigan	0.0025348542458808617	1	University of California - Los Angeles	University of Michigan
+10	University of California - Los Angeles	9	University of Maryland - College Park	0.0	1	University of California - Los Angeles	University of Maryland - College Park
+10	University of California - Los Angeles	10	University of California - Los Angeles	0.0076045627376425855	1	University of California - Los Angeles	University of California - Los Angeles
+10	University of California - Los Angeles	11	University of California - San Diego	0.0012674271229404308	1	University of California - Los Angeles	University of California - San Diego
+10	University of California - Los Angeles	12	University of Southern California	0.0038022813688212928	1	University of California - Los Angeles	University of Southern California
+10	University of California - Los Angeles	13	University of Texas - Austin	0.0025348542458808617	1	University of California - Los Angeles	University of Texas - Austin
+10	University of California - Los Angeles	14	Columbia University	0.0012674271229404308	1	University of California - Los Angeles	Columbia University
+10	University of California - Los Angeles	15	Princeton University	0.0	1	University of California - Los Angeles	Princeton University
+10	University of California - Los Angeles	16	University of California - Irvine	0.0012674271229404308	1	University of California - Los Angeles	University of California - Irvine
+10	University of California - Los Angeles	17	Northwestern University	0.0025348542458808617	1	University of California - Los Angeles	Northwestern University
+10	University of California - Los Angeles	18	University of Pennsylvania	0.0012674271229404308	1	University of California - Los Angeles	University of Pennsylvania
+10	University of California - Los Angeles	19	Yale University	0.0	1	University of California - Los Angeles	Yale University
+11	University of California - San Diego	0	Carnegie Mellon University	0.0012674271229404308	1	University of California - San Diego	Carnegie Mellon University
+11	University of California - San Diego	1	Massachusetts Institute of Technology	0.0	1	University of California - San Diego	Massachusetts Institute of Technology
+11	University of California - San Diego	2	Stanford University	0.0	1	University of California - San Diego	Stanford University
+11	University of California - San Diego	3	University of California - Berkeley	0.0012674271229404308	1	University of California - San Diego	University of California - Berkeley
+11	University of California - San Diego	4	University of Illinois at Urbana-Champaign	0.0012674271229404308	1	University of California - San Diego	University of Illinois at Urbana-Champaign
+11	University of California - San Diego	5	Cornell University	0.0012674271229404308	1	University of California - San Diego	Cornell University
+11	University of California - San Diego	6	Georgia Institute of Technology	0.0012674271229404308	1	University of California - San Diego	Georgia Institute of Technology
+11	University of California - San Diego	7	University of Washington	0.0012674271229404308	1	University of California - San Diego	University of Washington
+11	University of California - San Diego	8	University of Michigan	0.0012674271229404308	1	University of California - San Diego	University of Michigan
+11	University of California - San Diego	9	University of Maryland - College Park	0.0	1	University of California - San Diego	University of Maryland - College Park
+11	University of California - San Diego	10	University of California - Los Angeles	0.0012674271229404308	1	University of California - San Diego	University of California - Los Angeles
+11	University of California - San Diego	11	University of California - San Diego	0.0025348542458808617	1	University of California - San Diego	University of California - San Diego
+11	University of California - San Diego	12	University of Southern California	0.0	1	University of California - San Diego	University of Southern California
+11	University of California - San Diego	13	University of Texas - Austin	0.0	1	University of California - San Diego	University of Texas - Austin
+11	University of California - San Diego	14	Columbia University	0.0012674271229404308	1	University of California - San Diego	Columbia University
+11	University of California - San Diego	15	Princeton University	0.0	1	University of California - San Diego	Princeton University
+11	University of California - San Diego	16	University of California - Irvine	0.0012674271229404308	1	University of California - San Diego	University of California - Irvine
+11	University of California - San Diego	17	Northwestern University	0.0	1	University of California - San Diego	Northwestern University
+11	University of California - San Diego	18	University of Pennsylvania	0.0	1	University of California - San Diego	University of Pennsylvania
+11	University of California - San Diego	19	Yale University	0.0	1	University of California - San Diego	Yale University
+12	University of Southern California	0	Carnegie Mellon University	0.0	1	University of Southern California	Carnegie Mellon University
+12	University of Southern California	1	Massachusetts Institute of Technology	0.0	1	University of Southern California	Massachusetts Institute of Technology
+12	University of Southern California	2	Stanford University	0.0	1	University of Southern California	Stanford University
+12	University of Southern California	3	University of California - Berkeley	0.0	1	University of Southern California	University of California - Berkeley
+12	University of Southern California	4	University of Illinois at Urbana-Champaign	0.0	1	University of Southern California	University of Illinois at Urbana-Champaign
+12	University of Southern California	5	Cornell University	0.0	1	University of Southern California	Cornell University
+12	University of Southern California	6	Georgia Institute of Technology	0.0	1	University of Southern California	Georgia Institute of Technology
+12	University of Southern California	7	University of Washington	0.0	1	University of Southern California	University of Washington
+12	University of Southern California	8	University of Michigan	0.0025348542458808617	1	University of Southern California	University of Michigan
+12	University of Southern California	9	University of Maryland - College Park	0.0012674271229404308	1	University of Southern California	University of Maryland - College Park
+12	University of Southern California	10	University of California - Los Angeles	0.0	1	University of Southern California	University of California - Los Angeles
+12	University of Southern California	11	University of California - San Diego	0.0012674271229404308	1	University of Southern California	University of California - San Diego
+12	University of Southern California	12	University of Southern California	0.0063371356147021544	1	University of Southern California	University of Southern California
+12	University of Southern California	13	University of Texas - Austin	0.0	1	University of Southern California	University of Texas - Austin
+12	University of Southern California	14	Columbia University	0.0	1	University of Southern California	Columbia University
+12	University of Southern California	15	Princeton University	0.0	1	University of Southern California	Princeton University
+12	University of Southern California	16	University of California - Irvine	0.0012674271229404308	1	University of Southern California	University of California - Irvine
+12	University of Southern California	17	Northwestern University	0.0	1	University of Southern California	Northwestern University
+12	University of Southern California	18	University of Pennsylvania	0.0	1	University of Southern California	University of Pennsylvania
+12	University of Southern California	19	Yale University	0.0	1	University of Southern California	Yale University
+13	University of Texas - Austin	0	Carnegie Mellon University	0.0012674271229404308	1	University of Texas - Austin	Carnegie Mellon University
+13	University of Texas - Austin	1	Massachusetts Institute of Technology	0.0	1	University of Texas - Austin	Massachusetts Institute of Technology
+13	University of Texas - Austin	2	Stanford University	0.0	1	University of Texas - Austin	Stanford University
+13	University of Texas - Austin	3	University of California - Berkeley	0.0	1	University of Texas - Austin	University of California - Berkeley
+13	University of Texas - Austin	4	University of Illinois at Urbana-Champaign	0.0	1	University of Texas - Austin	University of Illinois at Urbana-Champaign
+13	University of Texas - Austin	5	Cornell University	0.0	1	University of Texas - Austin	Cornell University
+13	University of Texas - Austin	6	Georgia Institute of Technology	0.0025348542458808617	1	University of Texas - Austin	Georgia Institute of Technology
+13	University of Texas - Austin	7	University of Washington	0.0012674271229404308	1	University of Texas - Austin	University of Washington
+13	University of Texas - Austin	8	University of Michigan	0.0025348542458808617	1	University of Texas - Austin	University of Michigan
+13	University of Texas - Austin	9	University of Maryland - College Park	0.0012674271229404308	1	University of Texas - Austin	University of Maryland - College Park
+13	University of Texas - Austin	10	University of California - Los Angeles	0.0012674271229404308	1	University of Texas - Austin	University of California - Los Angeles
+13	University of Texas - Austin	11	University of California - San Diego	0.0012674271229404308	1	University of Texas - Austin	University of California - San Diego
+13	University of Texas - Austin	12	University of Southern California	0.0	1	University of Texas - Austin	University of Southern California
+13	University of Texas - Austin	13	University of Texas - Austin	0.0038022813688212928	1	University of Texas - Austin	University of Texas - Austin
+13	University of Texas - Austin	14	Columbia University	0.0025348542458808617	1	University of Texas - Austin	Columbia University
+13	University of Texas - Austin	15	Princeton University	0.0012674271229404308	1	University of Texas - Austin	Princeton University
+13	University of Texas - Austin	16	University of California - Irvine	0.0025348542458808617	1	University of Texas - Austin	University of California - Irvine
+13	University of Texas - Austin	17	Northwestern University	0.0012674271229404308	1	University of Texas - Austin	Northwestern University
+13	University of Texas - Austin	18	University of Pennsylvania	0.0	1	University of Texas - Austin	University of Pennsylvania
+13	University of Texas - Austin	19	Yale University	0.0012674271229404308	1	University of Texas - Austin	Yale University
+14	Columbia University	0	Carnegie Mellon University	0.0025348542458808617	1	Columbia University	Carnegie Mellon University
+14	Columbia University	1	Massachusetts Institute of Technology	0.0012674271229404308	1	Columbia University	Massachusetts Institute of Technology
+14	Columbia University	2	Stanford University	0.0012674271229404308	1	Columbia University	Stanford University
+14	Columbia University	3	University of California - Berkeley	0.0	1	Columbia University	University of California - Berkeley
+14	Columbia University	4	University of Illinois at Urbana-Champaign	0.0	1	Columbia University	University of Illinois at Urbana-Champaign
+14	Columbia University	5	Cornell University	0.0	1	Columbia University	Cornell University
+14	Columbia University	6	Georgia Institute of Technology	0.0038022813688212928	1	Columbia University	Georgia Institute of Technology
+14	Columbia University	7	University of Washington	0.0	1	Columbia University	University of Washington
+14	Columbia University	8	University of Michigan	0.0012674271229404308	1	Columbia University	University of Michigan
+14	Columbia University	9	University of Maryland - College Park	0.0012674271229404308	1	Columbia University	University of Maryland - College Park
+14	Columbia University	10	University of California - Los Angeles	0.0012674271229404308	1	Columbia University	University of California - Los Angeles
+14	Columbia University	11	University of California - San Diego	0.0	1	Columbia University	University of California - San Diego
+14	Columbia University	12	University of Southern California	0.0	1	Columbia University	University of Southern California
+14	Columbia University	13	University of Texas - Austin	0.0025348542458808617	1	Columbia University	University of Texas - Austin
+14	Columbia University	14	Columbia University	0.0012674271229404308	1	Columbia University	Columbia University
+14	Columbia University	15	Princeton University	0.0	1	Columbia University	Princeton University
+14	Columbia University	16	University of California - Irvine	0.0038022813688212928	1	Columbia University	University of California - Irvine
+14	Columbia University	17	Northwestern University	0.0012674271229404308	1	Columbia University	Northwestern University
+14	Columbia University	18	University of Pennsylvania	0.0012674271229404308	1	Columbia University	University of Pennsylvania
+14	Columbia University	19	Yale University	0.0	1	Columbia University	Yale University
+15	Princeton University	0	Carnegie Mellon University	0.0012674271229404308	1	Princeton University	Carnegie Mellon University
+15	Princeton University	1	Massachusetts Institute of Technology	0.0025348542458808617	1	Princeton University	Massachusetts Institute of Technology
+15	Princeton University	2	Stanford University	0.0012674271229404308	1	Princeton University	Stanford University
+15	Princeton University	3	University of California - Berkeley	0.0012674271229404308	1	Princeton University	University of California - Berkeley
+15	Princeton University	4	University of Illinois at Urbana-Champaign	0.0012674271229404308	1	Princeton University	University of Illinois at Urbana-Champaign
+15	Princeton University	5	Cornell University	0.0012674271229404308	1	Princeton University	Cornell University
+15	Princeton University	6	Georgia Institute of Technology	0.0	1	Princeton University	Georgia Institute of Technology
+15	Princeton University	7	University of Washington	0.0012674271229404308	1	Princeton University	University of Washington
+15	Princeton University	8	University of Michigan	0.0063371356147021544	1	Princeton University	University of Michigan
+15	Princeton University	9	University of Maryland - College Park	0.0012674271229404308	1	Princeton University	University of Maryland - College Park
+15	Princeton University	10	University of California - Los Angeles	0.0012674271229404308	1	Princeton University	University of California - Los Angeles
+15	Princeton University	11	University of California - San Diego	0.0025348542458808617	1	Princeton University	University of California - San Diego
+15	Princeton University	12	University of Southern California	0.0038022813688212928	1	Princeton University	University of Southern California
+15	Princeton University	13	University of Texas - Austin	0.0025348542458808617	1	Princeton University	University of Texas - Austin
+15	Princeton University	14	Columbia University	0.0025348542458808617	1	Princeton University	Columbia University
+15	Princeton University	15	Princeton University	0.0025348542458808617	1	Princeton University	Princeton University
+15	Princeton University	16	University of California - Irvine	0.0012674271229404308	1	Princeton University	University of California - Irvine
+15	Princeton University	17	Northwestern University	0.0076045627376425855	1	Princeton University	Northwestern University
+15	Princeton University	18	University of Pennsylvania	0.0038022813688212928	1	Princeton University	University of Pennsylvania
+15	Princeton University	19	Yale University	0.0012674271229404308	1	Princeton University	Yale University
+16	University of California - Irvine	0	Carnegie Mellon University	0.0012674271229404308	1	University of California - Irvine	Carnegie Mellon University
+16	University of California - Irvine	1	Massachusetts Institute of Technology	0.0	1	University of California - Irvine	Massachusetts Institute of Technology
+16	University of California - Irvine	2	Stanford University	0.0	1	University of California - Irvine	Stanford University
+16	University of California - Irvine	3	University of California - Berkeley	0.0	1	University of California - Irvine	University of California - Berkeley
+16	University of California - Irvine	4	University of Illinois at Urbana-Champaign	0.0	1	University of California - Irvine	University of Illinois at Urbana-Champaign
+16	University of California - Irvine	5	Cornell University	0.0	1	University of California - Irvine	Cornell University
+16	University of California - Irvine	6	Georgia Institute of Technology	0.0012674271229404308	1	University of California - Irvine	Georgia Institute of Technology
+16	University of California - Irvine	7	University of Washington	0.0012674271229404308	1	University of California - Irvine	University of Washington
+16	University of California - Irvine	8	University of Michigan	0.0	1	University of California - Irvine	University of Michigan
+16	University of California - Irvine	9	University of Maryland - College Park	0.0012674271229404308	1	University of California - Irvine	University of Maryland - College Park
+16	University of California - Irvine	10	University of California - Los Angeles	0.0	1	University of California - Irvine	University of California - Los Angeles
+16	University of California - Irvine	11	University of California - San Diego	0.0	1	University of California - Irvine	University of California - San Diego
+16	University of California - Irvine	12	University of Southern California	0.0012674271229404308	1	University of California - Irvine	University of Southern California
+16	University of California - Irvine	13	University of Texas - Austin	0.0012674271229404308	1	University of California - Irvine	University of Texas - Austin
+16	University of California - Irvine	14	Columbia University	0.0	1	University of California - Irvine	Columbia University
+16	University of California - Irvine	15	Princeton University	0.0	1	University of California - Irvine	Princeton University
+16	University of California - Irvine	16	University of California - Irvine	0.0038022813688212928	1	University of California - Irvine	University of California - Irvine
+16	University of California - Irvine	17	Northwestern University	0.0	1	University of California - Irvine	Northwestern University
+16	University of California - Irvine	18	University of Pennsylvania	0.0	1	University of California - Irvine	University of Pennsylvania
+16	University of California - Irvine	19	Yale University	0.0	1	University of California - Irvine	Yale University
+17	Northwestern University	0	Carnegie Mellon University	0.0	1	Northwestern University	Carnegie Mellon University
+17	Northwestern University	1	Massachusetts Institute of Technology	0.0	1	Northwestern University	Massachusetts Institute of Technology
+17	Northwestern University	2	Stanford University	0.0	1	Northwestern University	Stanford University
+17	Northwestern University	3	University of California - Berkeley	0.0	1	Northwestern University	University of California - Berkeley
+17	Northwestern University	4	University of Illinois at Urbana-Champaign	0.0	1	Northwestern University	University of Illinois at Urbana-Champaign
+17	Northwestern University	5	Cornell University	0.0	1	Northwestern University	Cornell University
+17	Northwestern University	6	Georgia Institute of Technology	0.0012674271229404308	1	Northwestern University	Georgia Institute of Technology
+17	Northwestern University	7	University of Washington	0.0	1	Northwestern University	University of Washington
+17	Northwestern University	8	University of Michigan	0.0	1	Northwestern University	University of Michigan
+17	Northwestern University	9	University of Maryland - College Park	0.0	1	Northwestern University	University of Maryland - College Park
+17	Northwestern University	10	University of California - Los Angeles	0.0	1	Northwestern University	University of California - Los Angeles
+17	Northwestern University	11	University of California - San Diego	0.0	1	Northwestern University	University of California - San Diego
+17	Northwestern University	12	University of Southern California	0.0012674271229404308	1	Northwestern University	University of Southern California
+17	Northwestern University	13	University of Texas - Austin	0.0	1	Northwestern University	University of Texas - Austin
+17	Northwestern University	14	Columbia University	0.0	1	Northwestern University	Columbia University
+17	Northwestern University	15	Princeton University	0.0	1	Northwestern University	Princeton University
+17	Northwestern University	16	University of California - Irvine	0.0	1	Northwestern University	University of California - Irvine
+17	Northwestern University	17	Northwestern University	0.0025348542458808617	1	Northwestern University	Northwestern University
+17	Northwestern University	18	University of Pennsylvania	0.0	1	Northwestern University	University of Pennsylvania
+17	Northwestern University	19	Yale University	0.0	1	Northwestern University	Yale University
+18	University of Pennsylvania	0	Carnegie Mellon University	0.0	1	University of Pennsylvania	Carnegie Mellon University
+18	University of Pennsylvania	1	Massachusetts Institute of Technology	0.0	1	University of Pennsylvania	Massachusetts Institute of Technology
+18	University of Pennsylvania	2	Stanford University	0.0	1	University of Pennsylvania	Stanford University
+18	University of Pennsylvania	3	University of California - Berkeley	0.0	1	University of Pennsylvania	University of California - Berkeley
+18	University of Pennsylvania	4	University of Illinois at Urbana-Champaign	0.0025348542458808617	1	University of Pennsylvania	University of Illinois at Urbana-Champaign
+18	University of Pennsylvania	5	Cornell University	0.0012674271229404308	1	University of Pennsylvania	Cornell University
+18	University of Pennsylvania	6	Georgia Institute of Technology	0.0	1	University of Pennsylvania	Georgia Institute of Technology
+18	University of Pennsylvania	7	University of Washington	0.0012674271229404308	1	University of Pennsylvania	University of Washington
+18	University of Pennsylvania	8	University of Michigan	0.0012674271229404308	1	University of Pennsylvania	University of Michigan
+18	University of Pennsylvania	9	University of Maryland - College Park	0.0025348542458808617	1	University of Pennsylvania	University of Maryland - College Park
+18	University of Pennsylvania	10	University of California - Los Angeles	0.0	1	University of Pennsylvania	University of California - Los Angeles
+18	University of Pennsylvania	11	University of California - San Diego	0.0025348542458808617	1	University of Pennsylvania	University of California - San Diego
+18	University of Pennsylvania	12	University of Southern California	0.0025348542458808617	1	University of Pennsylvania	University of Southern California
+18	University of Pennsylvania	13	University of Texas - Austin	0.0	1	University of Pennsylvania	University of Texas - Austin
+18	University of Pennsylvania	14	Columbia University	0.0063371356147021544	1	University of Pennsylvania	Columbia University
+18	University of Pennsylvania	15	Princeton University	0.0	1	University of Pennsylvania	Princeton University
+18	University of Pennsylvania	16	University of California - Irvine	0.0	1	University of Pennsylvania	University of California - Irvine
+18	University of Pennsylvania	17	Northwestern University	0.0012674271229404308	1	University of Pennsylvania	Northwestern University
+18	University of Pennsylvania	18	University of Pennsylvania	0.0	1	University of Pennsylvania	University of Pennsylvania
+18	University of Pennsylvania	19	Yale University	0.0	1	University of Pennsylvania	Yale University
+19	Yale University	0	Carnegie Mellon University	0.0038022813688212928	1	Yale University	Carnegie Mellon University
+19	Yale University	1	Massachusetts Institute of Technology	0.0	1	Yale University	Massachusetts Institute of Technology
+19	Yale University	2	Stanford University	0.0012674271229404308	1	Yale University	Stanford University
+19	Yale University	3	University of California - Berkeley	0.0	1	Yale University	University of California - Berkeley
+19	Yale University	4	University of Illinois at Urbana-Champaign	0.0025348542458808617	1	Yale University	University of Illinois at Urbana-Champaign
+19	Yale University	5	Cornell University	0.0	1	Yale University	Cornell University
+19	Yale University	6	Georgia Institute of Technology	0.0012674271229404308	1	Yale University	Georgia Institute of Technology
+19	Yale University	7	University of Washington	0.0	1	Yale University	University of Washington
+19	Yale University	8	University of Michigan	0.0	1	Yale University	University of Michigan
+19	Yale University	9	University of Maryland - College Park	0.0012674271229404308	1	Yale University	University of Maryland - College Park
+19	Yale University	10	University of California - Los Angeles	0.0012674271229404308	1	Yale University	University of California - Los Angeles
+19	Yale University	11	University of California - San Diego	0.0	1	Yale University	University of California - San Diego
+19	Yale University	12	University of Southern California	0.0	1	Yale University	University of Southern California
+19	Yale University	13	University of Texas - Austin	0.0	1	Yale University	University of Texas - Austin
+19	Yale University	14	Columbia University	0.0	1	Yale University	Columbia University
+19	Yale University	15	Princeton University	0.0025348542458808617	1	Yale University	Princeton University
+19	Yale University	16	University of California - Irvine	0.0012674271229404308	1	Yale University	University of California - Irvine
+19	Yale University	17	Northwestern University	0.0038022813688212928	1	Yale University	Northwestern University
+19	Yale University	18	University of Pennsylvania	0.0012674271229404308	1	Yale University	University of Pennsylvania
+19	Yale University	19	Yale University	0.0	1	Yale University	Yale University
