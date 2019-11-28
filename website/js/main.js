@@ -119,5 +119,9 @@
     items: 1
   });
 
+  $.getJSON("data/predict.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+});
+
 })(jQuery);
 
