@@ -119,9 +119,18 @@
     items: 1
   });
 
-  $.getJSON("data/predict.json", function(json) {
+  $.getJSON("https://raw.githubusercontent.com/ShengruiLYU/InteractiveDS-University-Professor-Analysis/master/data/predict.json", function(json) {
     console.log(json); // this will show the info it in firebug console
-});
+    alert("finshed loading data");
+    $("#predict").click(function(){
+      var bs = $('#bs').val();
+      var phd = $('#phd').val();
+      var subf = $('#subfield').val();
+      var prediction = json[subf][bs][phd];
+
+      alert("You are likely to be a professor at:\n" + prediction);
+    });
+  });
 
 })(jQuery);
 
