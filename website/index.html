@@ -92,57 +92,84 @@
     <!--==========================
     Overview Section
   ============================-->
+    <br /><br /><br /><br />
     <section id="overview">
       <div class="container">
         <header class="section-header">
-          <h3>Project Introduction</h3>
+          </br>
+          <h3><b>Project Introduction</b></h3>
           <p>Education is one of the most important parts of a country's development. In this project, we provide an
             insight of American post-secondary education by leveraging datasets of universities and professors. Our work
-            includes visualization of university and college information, exploratory data analysis of professors, prediction
+            includes visualization of university and college information, exploratory data analysis of professors,
+            prediction
             for professor future workplace, etc.
           </p>
         </header>
-        <p><span style="font-size: 20px;"><b>Dataset Brief Introduction</b></span></p>
+        <br /><br />
+        <h4><b>Dataset Brief Introduction</b></h4>
+        <h5>University Dataset</h5>
         <p>
-          University dataset covers information for 5897 active univerisities located at Continental United States.<br>
-          <a href="https://public-us.opendatasoft.com/explore/dataset/us-colleges-and-universities/" target="_blank">Take a look at original university dataset</a>
-          <br>
-          Professor dataset covers information for over 2000 computer science professors working at top universities and colleges.<br>
-          <a href="https://drafty.cs.brown.edu/" target="_blank">Take a look at original professor dataset</a>
+          This dataset is published by HIFLD and consists of all Post Secondary Education facilities acknowledged by
+          American official departments. It covers 7,686 American universities and colleges located at 50 states, as well
+          as Puerto Rico and other assorted U.S. territories. We leverage this dataset to acquire universities’
+          fundamental information including location, population, name, etc.
         </p>
+        <h5>Professor Dataset</h5>
+        <p>
+          This dataset published by Prof. Huang in Brown University. It contains information of over 2,000 computer
+          science professors at top universitiesm, which include the names, institution, degrees obtained, and when they
+          joined the university, for professors in the traditional role that involves both research and teaching.<br>
+        </p>
+        <div class="alert alert-info" role="alert">
+          Take a look at the original <a class="alert-link"
+            href="https://public-us.opendatasoft.com/explore/dataset/us-colleges-and-universities/"
+            target="_blank">university dataset</a> and <a class="alert-link" href="https://drafty.cs.brown.edu/" target="_blank">professor dataset</a>
+        </div>
+        
+
 
         <p><span style="font-size: 20px;"><b>University Data Quality</b></span></p>
         <p>
-        <span style="font-size: 15px;"><b>Completeness</b></span><br>
+          <span style="font-size: 15px;"><b>Completeness</b></span><br>
           Assessment: Check the data set for following questions:<br>
           (a)Whether the data is appropriate?<br>
           (b)Whether the data is complete?<br>
           (c)Whether the data contains junk values?<br>
           Ensurance:<br>
-          (a)appropriateness: The dataset contains all American university information collected in 2019. It can provide most up-to-date information for us to answer questions about universities.<br>
-          (b)completeness: We acquire the dataset from opendatasoft. According to the announcement of the uploader, this dataset covers all universities acknowledged by American official departments.<br>
-          (c)report errors: All the rows lacking key information or having meaningless value are eliminated. There is no typo in dataset.<br>
-        <span style="font-size: 15px;"><b>Coherence</b></span><br>
+          (a)appropriateness: The dataset contains all American university information collected in 2019. It can provide
+          most up-to-date information for us to answer questions about universities.<br>
+          (b)completeness: We acquire the dataset from opendatasoft. According to the announcement of the uploader, this
+          dataset covers all universities acknowledged by American official departments.<br>
+          (c)report errors: All the rows lacking key information or having meaningless value are eliminated. There is no
+          typo in dataset.<br>
+          <span style="font-size: 15px;"><b>Coherence</b></span><br>
           Assessment: Check whether my data make sense relative to itself.<br>
-          Ensurance: Value of each entry is ensured to correspond to its column value type. Information in same column is recorded in same units for all universities. All universities are recorded with same kinds of information.<br>
-        <span style="font-size: 15px;"><b>Accuracy</b></span><br>
+          Ensurance: Value of each entry is ensured to correspond to its column value type. Information in same column
+          is recorded in same units for all universities. All universities are recorded with same kinds of
+          information.<br>
+          <span style="font-size: 15px;"><b>Accuracy</b></span><br>
           Assessment: Check whether there is a source of bias.<br>
           Ensurance: All data are collected based on statistics. There is no subjective factors in the factual data.<br>
-        <span style="font-size: 15px;"><b>Accountable</b></span><br>
+          <span style="font-size: 15px;"><b>Accountable</b></span><br>
           Assessment: Check whether I understand the provenance of data.<br>
-          Ensurance: Definitely, we know how the data come out, what does each column in the table mean, etc. We also back up the original dataset. The detailed data processing steps are recorded in previous part.<br>
+          Ensurance: Definitely, we know how the data come out, what does each column in the table mean, etc. We also
+          back up the original dataset. The detailed data processing steps are recorded in previous part.<br>
         </p>
 
         <p><span style="font-size: 20px;"><b>Professor Data Quality</b></span></p>
         <p>
-        <span style="font-size: 15px;"><b>Completeness</b></span><br>
-          Ensurance:The data comes from a research project at Brown university. The data is collected from voluntary voting from people from academia.<br>
-        <span style="font-size: 15px;"><b>Coherence</b></span><br>
-          Ensurance: We specifically chose the data in the domian that we are familiar with. So that we could ensure the data make sense.<br>
-        <span style="font-size: 15px;"><b>Accuracy</b></span><br>
+          <span style="font-size: 15px;"><b>Completeness</b></span><br>
+          Ensurance:The data comes from a research project at Brown university. The data is collected from voluntary
+          voting from people from academia.<br>
+          <span style="font-size: 15px;"><b>Coherence</b></span><br>
+          Ensurance: We specifically chose the data in the domian that we are familiar with. So that we could ensure the
+          data make sense.<br>
+          <span style="font-size: 15px;"><b>Accuracy</b></span><br>
           Ensurance: All data are collected based on statistics. There is no subjective factors in the factual data.<br>
-        <span style="font-size: 15px;"><b>Accountable</b></span><br>
-          Ensurance: The information of the professors are comming from voluntary voting. However, the accountability is ensured by asking the volunteer to paste the url to the professor's website. So that the information of the professor could be verified. <br>
+          <span style="font-size: 15px;"><b>Accountable</b></span><br>
+          Ensurance: The information of the professors are comming from voluntary voting. However, the accountability is
+          ensured by asking the volunteer to paste the url to the professor's website. So that the information of the
+          professor could be verified. <br>
         </p>
       </div>
 
@@ -151,86 +178,49 @@
     <!--==========================
       University DataSet Section
     ============================-->
+    <br /><br />
+    <hr />
     <section id="university">
       <div class="container">
 
         <header class="section-header">
-          <h3>University Dataset Analysis</h3>
-          <p>This dataset consists of all Post Secondary Education facilities acknowledged by American official departments.
+          </br>
+          <h3><b>University Dataset Analysis</b></h3>
+          <p>This dataset consists of all Post Secondary Education facilities acknowledged by American official
+            departments.
             It covers 5897 universities and colleges located at United States, excluding Puerto Rico and other assorted
-            U.S. territories. It only contains information of universities and colleges whose population is more than 100 and
-            annual total enrollment is more than 0, which includes university name, state, county, school type, population,
+            U.S. territories. It only contains information of universities and colleges whose population is more than
+            100 and
+            annual total enrollment is more than 0, which includes university name, state, county, school type,
+            population,
             annual total enrollment, latitude and longitude.
           </p>
         </header>
-        <p><span style="font-size: 20px;"><b>How is the university geographic distribution across the United States?</b></span></p>
+        <br /><br />
+        <p><span style="font-size: 20px;"><b>How is the university geographic distribution across the United
+              States?</b></span></p>
         <p>
           The following map is designed to deliver a breif overview of school distribution across United States. From
-          the map, we can see a highly skewed distribution where most universities and colleges with large population sit
+          the map, we can see a highly skewed distribution where most universities and colleges with large population
+          sit
           at eastern United States and west coast region. As these two regions are famous for prosperous economy and
-          pleasant climate, we can identify that education is a high-level requirement which are pursued after the fulfillment
+          pleasant climate, we can identify that education is a high-level requirement which are pursued after the
+          fulfillment
           of subsistence. Another discovery is that developed post-secondary education also needs the support of large
-          population because the distribution of universities and colleges are correlated to the commensense distribution
+          population because the distribution of universities and colleges are correlated to the commensense
+          distribution
           of American population.
         </p>
-        <div class='tableauPlaceholder' id='viz1574990558362' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FZ&#47;FZTRB45JJ&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;FZTRB45JJ' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FZ&#47;FZTRB45JJ&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1574990558362');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <p><span style="font-size: 20px;"><b>What is the number of people engaging in post-secondary education in each area?</b></span></p>
-        <p>
-          The following two graphs provide different view for readers to understand the relationship between areas and
-          populations.<br>
-          The first tree map mainly reveals the relationship between states and populations. In that graph, the states
-          are ranked by the number of population and the counties are organized by the states it belongs to. We can see
-          that the top three states with highest population are CA, TX and NY.
-        </p>
-        <div class='tableauPlaceholder' id='viz1574990874646' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_15747381594350&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1574990874646');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <p>
-          The second bubble chart presented below can provide more comparisons across cities. It reveals the relationship
-          between counties and populations. We can find that counties with most students are Los Angeles, Maricopa and Cook.
-        </p>
-<div class='tableauPlaceholder' id='viz1575057576116' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_15747381594350&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1575057576116');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
-</section><!-- #about -->
-    <!--==========================
-      Professor DataSet Section
-    ============================-->
-    <section id="professor">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Professor Dataset Analysis</h3>
-          <p>This dataset published by Prof. Huang in Brown University. It contains information of over 2,000 computer
-            science professors at top universitiesm, which include the names, institution, degrees obtained, and when
-            they joined the university, for professors in the traditional role that involves both research and teaching.
-          </p>
-        </header>
-        <div>
-          <p><span style="font-size: 20px;"><b>Where do the professors study for their Ph.D. degree?</b></span></p>
-          <p>The schools are ranked by their ranking. As we can see from the following heat map, dark color cells are
-            concentrated around the upper-left corner, top few rows and diagonal. That means top CS schools graduate
-            more phds that end up in a top 50 institute, and a phd in top universities usually become a professor in a
-            top university. The dark color in the diagonal means there is a significant portion of phd stayed in their
-            own university as a professor.</p>
-            <p>You can interact with the following chart by putting your mouse on each cell to show the details of each cell.</p>
-            <div class='tableauPlaceholder' id='viz1575056511739' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeatMapSorted&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HeatMapSorted&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeatMapSorted&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1575056511739');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br></br>
-<p>To show the detailed information of the career path of the graduate within Top 10 (according to U.S. news) CS school, we plot the following chord diagram. Each connection represent the graduate transfer from one school to another school. The width at each end of the connection represent the number of graduates participating in this flow. </p>
-<div class='tableauPlaceholder' id='viz1575057903305' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRTDJPD87&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;RRTDJPD87' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRTDJPD87&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1575057903305');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>        
-<p><span style="font-size: 20px;"><b>Which school has cultivated the most professors?</b></span></p>
-        <p>The following pie chart shows the number of Ph.D graduate for each school that end up being a professor in a
-          top 50 cs university. It's not suprise that MIT, Berkeley, Stanford and CMU took the top spot as they have
-          large CS departments and the Ph.D. students are excellent.</p>
-        <p>You can interact with the following pie chart by putting your mouse on each part to show the details, and clicking the school name on the right to highlight the school.</p>
-        <div class='tableauPlaceholder' id='viz1574923244590' style='position: relative'><noscript><a href='#'><img
+        <div class='tableauPlaceholder' id='viz1574990558362' style='position: relative'><noscript><a href='#'><img
                 alt=' '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pi&#47;PieChart_15749232354140&#47;Sheet2&#47;1_rss.png'
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FZ&#47;FZTRB45JJ&#47;1_rss.png'
                 style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
             <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='PieChart_15749232354140&#47;Sheet2' />
-            <param name='tabs' value='no' />
+            <param name='path' value='shared&#47;FZTRB45JJ' />
             <param name='toolbar' value='yes' />
             <param name='static_image'
-              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pi&#47;PieChart_15749232354140&#47;Sheet2&#47;1.png' />
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FZ&#47;FZTRB45JJ&#47;1.png' />
             <param name='animate_transition' value='yes' />
             <param name='display_static_image' value='yes' />
             <param name='display_spinner' value='yes' />
@@ -238,191 +228,374 @@
             <param name='display_count' value='yes' />
             <param name='filter' value='publish=yes' /></object></div>
         <script
-          type='text/javascript'>                    var divElement = document.getElementById('viz1574923244590'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          type='text/javascript'>                    var divElement = document.getElementById('viz1574990558362'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <p><span style="font-size: 20px;"><b>What is the number of people engaging in post-secondary education in each
+              area?</b></span></p>
+        <p>
+          The following two graphs provide different view for readers to understand the relationship between areas and
+          populations.<br>
+          The first tree map mainly reveals the relationship between states and populations. In that graph, the states
+          are ranked by the number of population and the counties are organized by the states it belongs to. We can see
+          that the top three states with highest population are CA, TX and NY.
+        </p>
+        <div class='tableauPlaceholder' id='viz1574990874646' style='position: relative'><noscript><a href='#'><img
+                alt=' '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet2&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='Book1_15747381594350&#47;Sheet2' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet2&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='filter' value='publish=yes' /></object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1574990874646'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <p>
+          The second bubble chart presented below can provide more comparisons across cities. It reveals the
+          relationship
+          between counties and populations. We can find that counties with most students are Los Angeles, Maricopa and
+          Cook.
+        </p>
+        <div class='tableauPlaceholder' id='viz1575057576116' style='position: relative'><noscript><a href='#'><img
+                alt=' '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet3&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='Book1_15747381594350&#47;Sheet3' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_15747381594350&#47;Sheet3&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='filter' value='publish=yes' /></object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1575057576116'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </section><!-- #about -->
+    <!--==========================
+      Professor DataSet Section
+    ============================-->
+    <br /><br />
+    <hr />
+    <section id="professor">
+      <div class="container">
 
-        <br></br>
-        <p>The following stacked bar chart will give you more detailed information of the distribution of the sub-fields of Ph.D.
-          graduates for each school. CMU has the most CS Ph.D. graduate, and within CMU, Human-Computer Interaction has the most graduates! :)</p>
-          <p>Again, you could interact with the chart by putting your mouse on the graph to show the details, and using the filter on the right.</p>
-          <div class='tableauPlaceholder' id='viz1575055573416' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StackedBar_15750555124090&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StackedBar_15750555124090&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StackedBar_15750555124090&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1575055573416');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-
-        <br></br>
-        <p><span style="font-size: 20px;"><b>Which school will you teach at?</b></span></p>
-        <p>You can select your Bachelors school, Doctorate school and your sub-field. We will predict the possible
-          university that you will teach at in the future using Naive Bayes Networks based on the professor dataset.</p>
+        <header class="section-header">
+          </br>
+          <h3><b>Professor Dataset Analysis</b></h3>
+          <p>This dataset published by Prof. Huang in Brown University. It contains information of over 2,000 computer
+            science professors at top universitiesm, which include the names, institution, degrees obtained, and when
+            they joined the university, for professors in the traditional role that involves both research and teaching.
+          </p>
+        </header>
+        <br /><br />
         <div>
-          <label for="bs">Select Bachelors</label>
-          <select name="bs" id="bs">
-            <option value=0>Carnegie Mellon University</option>
-            <option value=1>Massachusetts Institute of Technology</option>
-            <option value=2>Stanford University</option>
-            <option value=3>University of California - Berkeley</option>
-            <option value=4>University of Illinois at Urbana-Champaign</option>
-            <option value=5>Cornell University</option>
-            <option value=6>Georgia Institute of Technology</option>
-            <option value=7>University of Washington</option>
-            <option value=8>University of Michigan</option>
-            <option value=9>University of Maryland - College Park</option>
-            <option value=10>University of California - Los Angeles</option>
-            <option value=11>University of California - San Diego</option>
-            <option value=12>University of Southern California</option>
-            <option value=13>University of Texas - Austin</option>
-            <option value=14>Columbia University</option>
-            <option value=15>Princeton University</option>
-            <option value=16>University of California - Irvine</option>
-            <option value=17>Northwestern University</option>
-            <option value=18>University of Pennsylvania</option>
-            <option value=19>Yale University</option>
-            <option value=20>Duke University</option>
-            <option value=21>New York University</option>
-            <option value=22>Purdue University</option>
-            <option value=23>North Carolina State University</option>
-            <option value=24>University of Utah</option>
-            <option value=25>Texas A&M University</option>
-            <option value=26>University of Florida</option>
-            <option value=27>Rutgers - State University of New Jersey - New Brunswick</option>
-            <option value=28>University of Wisconsin - Madison</option>
-            <option value=29>Ohio State University</option>
-            <option value=30>Virginia Polytechnic Institute and State University</option>
-            <option value=31>University of Massachusetts - Amherst</option>
-            <option value=32>State University of New York - Stony Brook</option>
-            <option value=33>University of Colorado Boulder</option>
-            <option value=34>University of Minnesota - Twin Cities</option>
-            <option value=35>Pennsylvania State University</option>
-            <option value=36>University of California - Santa Barbara</option>
-            <option value=37>University of North Carolina - Chapel Hill</option>
-            <option value=38>University of California - Davis</option>
-            <option value=39>Brown University</option>
-            <option value=40>Rensselaer Polytechnic Institute</option>
-            <option value=41>University of Chicago</option>
-            <option value=42>Johns Hopkins University</option>
-            <option value=43>Harvard University</option>
-            <option value=44>University of Virginia</option>
-            <option value=45>Arizona State University</option>
-            <option value=46>Washington University - St. Louis</option>
-            <option value=47>University of Pittsburgh</option>
-            <option value=48>University of Rochester</option>
-            <option value=49>Rice University</option>
-            <option value=50>Boston University</option>
-            <option value=51>University of Arizona</option>
-            <option value=52>University of Notre Dame - USA</option>
-            <option value=53>California Institute of Technology</option>
-            <option value=54>Dartmouth College</option>
-          </select>
-        </div>
+          <p><span style="font-size: 20px;"><b>Where do the professors study for their Ph.D. degree?</b></span></p>
+          <p>The schools are ranked by their ranking. As we can see from the following heat map, dark color cells are
+            concentrated around the upper-left corner, top few rows and diagonal. That means top CS schools graduate
+            more phds that end up in a top 50 institute, and a phd in top universities usually become a professor in a
+            top university. The dark color in the diagonal means there is a significant portion of phd stayed in their
+            own university as a professor.</p>
+          <p>You can interact with the following chart by putting your mouse on each cell to show the details of each
+            cell.</p>
+          <div class='tableauPlaceholder' id='viz1575056511739' style='position: relative'><noscript><a href='#'><img
+                  alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeatMapSorted&#47;Sheet1&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='HeatMapSorted&#47;Sheet1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HeatMapSorted&#47;Sheet1&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='filter' value='publish=yes' /></object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1575056511739'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          <br></br>
+          <p>To show the detailed information of the career path of the graduate within Top 10 (according to U.S. news)
+            CS school, we plot the following chord diagram. Each connection represent the graduate transfer from one
+            school to another school. The width at each end of the connection represent the number of graduates
+            participating in this flow. </p>
+          <div class='tableauPlaceholder' id='viz1575057903305' style='position: relative'><noscript><a href='#'><img
+                  alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRTDJPD87&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='path' value='shared&#47;RRTDJPD87' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRTDJPD87&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='filter' value='publish=yes' /></object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1575057903305'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          <p><span style="font-size: 20px;"><b>Which school has cultivated the most professors?</b></span></p>
+          <p>The following pie chart shows the number of Ph.D graduate for each school that end up being a professor in
+            a
+            top 50 cs university. It's not suprise that MIT, Berkeley, Stanford and CMU took the top spot as they have
+            large CS departments and the Ph.D. students are excellent.</p>
+          <p>You can interact with the following pie chart by putting your mouse on each part to show the details, and
+            clicking the school name on the right to highlight the school.</p>
+          <div class='tableauPlaceholder' id='viz1574923244590' style='position: relative'><noscript><a href='#'><img
+                  alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pi&#47;PieChart_15749232354140&#47;Sheet2&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='PieChart_15749232354140&#47;Sheet2' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pi&#47;PieChart_15749232354140&#47;Sheet2&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='filter' value='publish=yes' /></object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1574923244590'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-        <div>
-          <label for="phd">Select Doctorate</label>
-          <select name="phd" id="phd">
-            <option value=0>Carnegie Mellon University</option>
-            <option value=1>Massachusetts Institute of Technology</option>
-            <option value=2>Stanford University</option>
-            <option value=3>University of California - Berkeley</option>
-            <option value=4>University of Illinois at Urbana-Champaign</option>
-            <option value=5>Cornell University</option>
-            <option value=6>Georgia Institute of Technology</option>
-            <option value=7>University of Washington</option>
-            <option value=8>University of Michigan</option>
-            <option value=9>University of Maryland - College Park</option>
-            <option value=10>University of California - Los Angeles</option>
-            <option value=11>University of California - San Diego</option>
-            <option value=12>University of Southern California</option>
-            <option value=13>University of Texas - Austin</option>
-            <option value=14>Columbia University</option>
-            <option value=15>Princeton University</option>
-            <option value=16>University of California - Irvine</option>
-            <option value=17>Northwestern University</option>
-            <option value=18>University of Pennsylvania</option>
-            <option value=19>Yale University</option>
-            <option value=20>Duke University</option>
-            <option value=21>New York University</option>
-            <option value=22>Purdue University</option>
-            <option value=23>North Carolina State University</option>
-            <option value=24>University of Utah</option>
-            <option value=25>Texas A&M University</option>
-            <option value=26>University of Florida</option>
-            <option value=27>Rutgers - State University of New Jersey - New Brunswick</option>
-            <option value=28>University of Wisconsin - Madison</option>
-            <option value=29>Ohio State University</option>
-            <option value=30>Virginia Polytechnic Institute and State University</option>
-            <option value=31>University of Massachusetts - Amherst</option>
-            <option value=32>State University of New York - Stony Brook</option>
-            <option value=33>University of Colorado Boulder</option>
-            <option value=34>University of Minnesota - Twin Cities</option>
-            <option value=35>Pennsylvania State University</option>
-            <option value=36>University of California - Santa Barbara</option>
-            <option value=37>University of North Carolina - Chapel Hill</option>
-            <option value=38>University of California - Davis</option>
-            <option value=39>Brown University</option>
-            <option value=40>Rensselaer Polytechnic Institute</option>
-            <option value=41>University of Chicago</option>
-            <option value=42>Johns Hopkins University</option>
-            <option value=43>Harvard University</option>
-            <option value=44>University of Virginia</option>
-            <option value=45>Arizona State University</option>
-            <option value=46>Washington University - St. Louis</option>
-            <option value=47>University of Pittsburgh</option>
-            <option value=48>University of Rochester</option>
-            <option value=49>Rice University</option>
-            <option value=50>Boston University</option>
-            <option value=51>University of Arizona</option>
-            <option value=52>University of Notre Dame - USA</option>
-            <option value=53>California Institute of Technology</option>
-            <option value=54>Dartmouth College</option>
-          </select>
-        </div>
-        <div>
-          <label for="subfield">Select a Sub-field</label>
-          <select name="subfield" id="subfield">
-            <option value=0>Computer Education</option>
-            <option value=1>Real-Time & Embedded Systems</option>
-            <option value=2>Machine Learning & Pattern Recognition</option>
-            <option value=3>Data Mining</option>
-            <option value=4>Computer Vision</option>
-            <option value=5>Scientific Computing</option>
-            <option value=6>Programming Languages</option>
-            <option value=7>Bioinformatics & Computational Biology</option>
-            <option value=8>Graphics</option>
-            <option value=9>Software Engineering</option>
-            <option value=10>Human-Computer Interaction</option>
-            <option value=11>World Wide Web</option>
-            <option value=12>Compilers</option>
-            <option value=13>Distributed & Parallel Computing</option>
-            <option value=14>Artificial Intelligence</option>
-            <option value=15>Natural Language & Speech</option>
-            <option value=16>Databases</option>
-            <option value=17>Networks & Communications</option>
-            <option value=18>Multimedia</option>
-            <option value=19>Security & Privacy</option>
-            <option value=20>Hardware & Architecture</option>
-            <option value=21>Algorithms & Theory</option>
-            <option value=22>Operating Systems</option>
-            <option value=23>Information Retrieval</option>
-          </select>
-        </div>
-        <div>
-          <button type="button" id="predict">Predict</button>
-        </div>
+          <br></br>
+          <p>The following stacked bar chart will give you more detailed information of the distribution of the
+            sub-fields of Ph.D.
+            graduates for each school. CMU has the most CS Ph.D. graduate, and within CMU, Human-Computer Interaction
+            has the most graduates! :)</p>
+          <p>Again, you could interact with the chart by putting your mouse on the graph to show the details, and using
+            the filter on the right.</p>
+          <div class='tableauPlaceholder' id='viz1575055573416' style='position: relative'><noscript><a href='#'><img
+                  alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StackedBar_15750555124090&#47;Sheet1&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='StackedBar_15750555124090&#47;Sheet1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StackedBar_15750555124090&#47;Sheet1&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='filter' value='publish=yes' /></object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1575055573416'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-      </div>
+
+          <br></br>
+          <p><span style="font-size: 20px;"><b>Which school will you teach at?</b></span></p>
+          <p>You can select your Bachelors school, Doctorate school and your sub-field. We will predict the possible
+            university that you will teach at in the future using Naive Bayes Networks based on the professor dataset.
+          </p>
+          <div>
+            <label for="bs">Select Bachelors</label>
+            <select name="bs" id="bs">
+              <option value=0>Carnegie Mellon University</option>
+              <option value=1>Massachusetts Institute of Technology</option>
+              <option value=2>Stanford University</option>
+              <option value=3>University of California - Berkeley</option>
+              <option value=4>University of Illinois at Urbana-Champaign</option>
+              <option value=5>Cornell University</option>
+              <option value=6>Georgia Institute of Technology</option>
+              <option value=7>University of Washington</option>
+              <option value=8>University of Michigan</option>
+              <option value=9>University of Maryland - College Park</option>
+              <option value=10>University of California - Los Angeles</option>
+              <option value=11>University of California - San Diego</option>
+              <option value=12>University of Southern California</option>
+              <option value=13>University of Texas - Austin</option>
+              <option value=14>Columbia University</option>
+              <option value=15>Princeton University</option>
+              <option value=16>University of California - Irvine</option>
+              <option value=17>Northwestern University</option>
+              <option value=18>University of Pennsylvania</option>
+              <option value=19>Yale University</option>
+              <option value=20>Duke University</option>
+              <option value=21>New York University</option>
+              <option value=22>Purdue University</option>
+              <option value=23>North Carolina State University</option>
+              <option value=24>University of Utah</option>
+              <option value=25>Texas A&M University</option>
+              <option value=26>University of Florida</option>
+              <option value=27>Rutgers - State University of New Jersey - New Brunswick</option>
+              <option value=28>University of Wisconsin - Madison</option>
+              <option value=29>Ohio State University</option>
+              <option value=30>Virginia Polytechnic Institute and State University</option>
+              <option value=31>University of Massachusetts - Amherst</option>
+              <option value=32>State University of New York - Stony Brook</option>
+              <option value=33>University of Colorado Boulder</option>
+              <option value=34>University of Minnesota - Twin Cities</option>
+              <option value=35>Pennsylvania State University</option>
+              <option value=36>University of California - Santa Barbara</option>
+              <option value=37>University of North Carolina - Chapel Hill</option>
+              <option value=38>University of California - Davis</option>
+              <option value=39>Brown University</option>
+              <option value=40>Rensselaer Polytechnic Institute</option>
+              <option value=41>University of Chicago</option>
+              <option value=42>Johns Hopkins University</option>
+              <option value=43>Harvard University</option>
+              <option value=44>University of Virginia</option>
+              <option value=45>Arizona State University</option>
+              <option value=46>Washington University - St. Louis</option>
+              <option value=47>University of Pittsburgh</option>
+              <option value=48>University of Rochester</option>
+              <option value=49>Rice University</option>
+              <option value=50>Boston University</option>
+              <option value=51>University of Arizona</option>
+              <option value=52>University of Notre Dame - USA</option>
+              <option value=53>California Institute of Technology</option>
+              <option value=54>Dartmouth College</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="phd">Select Doctorate</label>
+            <select name="phd" id="phd">
+              <option value=0>Carnegie Mellon University</option>
+              <option value=1>Massachusetts Institute of Technology</option>
+              <option value=2>Stanford University</option>
+              <option value=3>University of California - Berkeley</option>
+              <option value=4>University of Illinois at Urbana-Champaign</option>
+              <option value=5>Cornell University</option>
+              <option value=6>Georgia Institute of Technology</option>
+              <option value=7>University of Washington</option>
+              <option value=8>University of Michigan</option>
+              <option value=9>University of Maryland - College Park</option>
+              <option value=10>University of California - Los Angeles</option>
+              <option value=11>University of California - San Diego</option>
+              <option value=12>University of Southern California</option>
+              <option value=13>University of Texas - Austin</option>
+              <option value=14>Columbia University</option>
+              <option value=15>Princeton University</option>
+              <option value=16>University of California - Irvine</option>
+              <option value=17>Northwestern University</option>
+              <option value=18>University of Pennsylvania</option>
+              <option value=19>Yale University</option>
+              <option value=20>Duke University</option>
+              <option value=21>New York University</option>
+              <option value=22>Purdue University</option>
+              <option value=23>North Carolina State University</option>
+              <option value=24>University of Utah</option>
+              <option value=25>Texas A&M University</option>
+              <option value=26>University of Florida</option>
+              <option value=27>Rutgers - State University of New Jersey - New Brunswick</option>
+              <option value=28>University of Wisconsin - Madison</option>
+              <option value=29>Ohio State University</option>
+              <option value=30>Virginia Polytechnic Institute and State University</option>
+              <option value=31>University of Massachusetts - Amherst</option>
+              <option value=32>State University of New York - Stony Brook</option>
+              <option value=33>University of Colorado Boulder</option>
+              <option value=34>University of Minnesota - Twin Cities</option>
+              <option value=35>Pennsylvania State University</option>
+              <option value=36>University of California - Santa Barbara</option>
+              <option value=37>University of North Carolina - Chapel Hill</option>
+              <option value=38>University of California - Davis</option>
+              <option value=39>Brown University</option>
+              <option value=40>Rensselaer Polytechnic Institute</option>
+              <option value=41>University of Chicago</option>
+              <option value=42>Johns Hopkins University</option>
+              <option value=43>Harvard University</option>
+              <option value=44>University of Virginia</option>
+              <option value=45>Arizona State University</option>
+              <option value=46>Washington University - St. Louis</option>
+              <option value=47>University of Pittsburgh</option>
+              <option value=48>University of Rochester</option>
+              <option value=49>Rice University</option>
+              <option value=50>Boston University</option>
+              <option value=51>University of Arizona</option>
+              <option value=52>University of Notre Dame - USA</option>
+              <option value=53>California Institute of Technology</option>
+              <option value=54>Dartmouth College</option>
+            </select>
+          </div>
+          <div>
+            <label for="subfield">Select a Sub-field</label>
+            <select name="subfield" id="subfield">
+              <option value=0>Computer Education</option>
+              <option value=1>Real-Time & Embedded Systems</option>
+              <option value=2>Machine Learning & Pattern Recognition</option>
+              <option value=3>Data Mining</option>
+              <option value=4>Computer Vision</option>
+              <option value=5>Scientific Computing</option>
+              <option value=6>Programming Languages</option>
+              <option value=7>Bioinformatics & Computational Biology</option>
+              <option value=8>Graphics</option>
+              <option value=9>Software Engineering</option>
+              <option value=10>Human-Computer Interaction</option>
+              <option value=11>World Wide Web</option>
+              <option value=12>Compilers</option>
+              <option value=13>Distributed & Parallel Computing</option>
+              <option value=14>Artificial Intelligence</option>
+              <option value=15>Natural Language & Speech</option>
+              <option value=16>Databases</option>
+              <option value=17>Networks & Communications</option>
+              <option value=18>Multimedia</option>
+              <option value=19>Security & Privacy</option>
+              <option value=20>Hardware & Architecture</option>
+              <option value=21>Algorithms & Theory</option>
+              <option value=22>Operating Systems</option>
+              <option value=23>Information Retrieval</option>
+            </select>
+          </div>
+          <div>
+            <button type="button" id="predict">Predict</button>
+          </div>
+
+        </div>
     </section>
 
 
     <!--==========================
       Conslusion
     ============================-->
+    <br /><br />
+    <hr />
     <section id="conclusion">
-      <div class="container-fluid">
+      <div class="container">
+        <header class="section-header">
+          </br>
+          <h3><b>Conclusion & About</b></h3>
+          <p>
+          </p>
+        </header>
+        <br /><br />
 
-        <div class="section-header">
-          <h3>Conclusion</h3>
-        </div>
+        <br /><br />
 
         <div>
           <p><span style="font-size: 20px;"><b>References:</b></span></p>
           <div><a href="https://bootstrapmade.com/">1. Web Template From BootstrapMade</a></div>
-          <div><a href="https://public-us.opendatasoft.com/explore/dataset/us-colleges-and-universities/" target="_blank">2. University DataSet</a></div>
+          <div><a href="https://public-us.opendatasoft.com/explore/dataset/us-colleges-and-universities/"
+              target="_blank">2. University DataSet</a></div>
           <div><a href="https://drafty.cs.brown.edu/professors/#!data">3. Professor DataSet</a></div>
         </div>
 
