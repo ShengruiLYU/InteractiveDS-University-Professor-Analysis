@@ -119,6 +119,18 @@
     items: 1
   });
 
+  $('#bs').on('change', function() {
+    $("#predict-result-card").addClass("d-none");
+  });
+
+  $('#phd').on('change', function() {
+    $("#predict-result-card").addClass("d-none");
+  });
+
+  $('#subfield').on('change', function() {
+    $("#predict-result-card").addClass("d-none");
+  });
+
   $.getJSON("https://raw.githubusercontent.com/ShengruiLYU/InteractiveDS-University-Professor-Analysis/master/data/predict.json", function(json) {
     console.log(json); // this will show the info it in firebug console
     //alert("finshed loading data");
@@ -127,8 +139,9 @@
       var phd = $('#phd').val();
       var subf = $('#subfield').val();
       var prediction = json[subf][bs][phd];
-
-      alert("You are likely to be a professor at:\n" + prediction);
+      $("#predict-result-card").removeClass("d-none");
+      $("#predict-result").text(prediction);
+      //alert("You are likely to be a professor at:\n" + prediction);
     });
   });
 
