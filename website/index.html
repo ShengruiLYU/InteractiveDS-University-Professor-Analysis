@@ -97,7 +97,7 @@
       <div class="container">
         <header class="section-header">
           </br>
-          <h3><b>Project Introduction</b></h3>
+          <h3><b>Introduction</b></h3>
           <p>Education is one of the most important parts of a country's development. In this project, we provide an
             insight of American post-secondary education by leveraging datasets of universities and professors. Our work
             includes visualization of university and college information, exploratory data analysis of professors,
@@ -106,11 +106,12 @@
           </p>
         </header>
         <br /><br />
-        <h4><b>Dataset Brief Introduction</b></h4>
+        <h4><b>Dataset Introduction</b></h4>
         <h5>University Dataset</h5>
         <p>
           This dataset is published by HIFLD and consists of all Post Secondary Education facilities acknowledged by
-          American official departments. It covers 7,686 American universities and colleges located at 50 states, as well
+          American official departments. It covers 7,686 American universities and colleges located at 50 states, as
+          well
           as Puerto Rico and other assorted U.S. territories. We leverage this dataset to acquire universities’
           fundamental information including location, population, name, etc.
         </p>
@@ -123,13 +124,86 @@
         <div class="alert alert-info" role="alert">
           Take a look at the original <a class="alert-link"
             href="https://public-us.opendatasoft.com/explore/dataset/us-colleges-and-universities/"
-            target="_blank">university dataset</a> and <a class="alert-link" href="https://drafty.cs.brown.edu/" target="_blank">professor dataset</a>
+            target="_blank">university dataset</a> and <a class="alert-link" href="https://drafty.cs.brown.edu/"
+            target="_blank">professor dataset</a>
         </div>
-        
+        <br />
 
 
-        <p><span style="font-size: 20px;"><b>University Data Quality</b></span></p>
+
+        <h4><b>Data Quality (4C) Evaluation</b></h4>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">University Dataset</th>
+              <th scope="col">Professor Dataset</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Completeness</th>
+              <td>
+                <p>
+                  (a) appropriateness: The dataset contains all American university information collected in 2019. It can
+                  provide
+                  most up-to-date information for us to answer questions about universities.<br>
+                  (b) completeness: We acquire the dataset from opendatasoft. According to the announcement of the
+                  uploader, this
+                  dataset covers all universities acknowledged by American official departments.<br>
+                  (c) report errors: All the rows lacking key information or having meaningless value are eliminated.
+                  There is no
+                  typo in dataset.</p>
+              </td>
+              <td>
+                <p>
+                  The data comes from a research project at Brown university. The data is collected from
+                  voluntary
+                  voting from people from academia.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Coherence</th>
+              <td>
+                <p>
+                  Value of each entry is ensured to correspond to its column value type. Information in same column
+                  is recorded in same units for all universities. All universities are recorded with same kinds of
+                  information.</p>
+              </td>
+              <td>
+                <p>We specifically chose the data in the domian that we are familiar with. So that we could ensure the
+                    data make sense.</p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Correctness</th>
+              <td>
+                <p>
+                  All data are collected based on statistics. There is no subjective factors in the factual data.</p>
+              </td>
+              <td>
+                <p>All data are collected based on statistics. There is no subjective factors in the factual data.</p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Accountable</th>
+              <td>
+                <p>
+                  Definitely, we know how the data come out, what does each column in the table mean, etc. We also
+                  back up the original dataset. The detailed data processing steps are recorded in previous part.</p>
+              </td>
+              <td>
+                <p>The information of the professors are comming from voluntary voting. However, the accountability is
+                    ensured by asking the volunteer to paste the url to the professor's website. So that the information of the
+                    professor could be verified.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!--
         <p>
+          <h5>University Dataset</h5>
           <span style="font-size: 15px;"><b>Completeness</b></span><br>
           Assessment: Check the data set for following questions:<br>
           (a)Whether the data is appropriate?<br>
@@ -156,8 +230,9 @@
           back up the original dataset. The detailed data processing steps are recorded in previous part.<br>
         </p>
 
-        <p><span style="font-size: 20px;"><b>Professor Data Quality</b></span></p>
+
         <p>
+          <h5>Professor Dataset</h5>
           <span style="font-size: 15px;"><b>Completeness</b></span><br>
           Ensurance:The data comes from a research project at Brown university. The data is collected from voluntary
           voting from people from academia.<br>
@@ -171,6 +246,7 @@
           ensured by asking the volunteer to paste the url to the professor's website. So that the information of the
           professor could be verified. <br>
         </p>
+        -->
       </div>
 
     </section><!-- #intro -->
