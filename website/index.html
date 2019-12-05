@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>NewBiz Bootstrap Template</title>
+  <title>IDS Group 8</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/IDS-logo.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -102,7 +102,7 @@
             insight of American post-secondary education by leveraging datasets of universities and professors. Our work
             includes visualization of university and college information, exploratory data analysis of professors,
             prediction
-            for professor future workplace, etc.
+            for PhD students' future workplace, etc.
           </p>
         </header>
         <br /><br />
@@ -118,8 +118,9 @@
         <h5>Professor Dataset</h5>
         <p>
           This dataset published by Prof. Huang in Brown University. It contains information of over 2,000 computer
-          science professors at top universitiesm, which include the names, institution, degrees obtained, and when they
-          joined the university, for professors in the traditional role that involves both research and teaching.<br>
+          science professors at top 50 universities, which include names, bachelors school, master school, PhD school, as well as which university is he/her currently teaching at.
+          Supplementary information such as year joined, research area, and personal homepage are also provided.
+          <br>
         </p>
         <div class="alert alert-info" role="alert">
           Take a look at the original <a class="alert-link"
@@ -335,7 +336,7 @@
             <param name='display_count' value='yes' />
             <param name='filter' value='publish=yes' /></object></div>
         <script
-          type='text/javascript'>                    var divElement = document.getElementById('viz1574990874646'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          type='text/javascript'>                    var divElement = document.getElementById('viz1574990874646'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.60) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
         <p>
           The second bubble chart presented below can provide more comparisons across cities. It reveals the
           relationship
@@ -414,7 +415,7 @@
             CS school, we plot the following chord diagram. Each connection represent the graduate transfer from one
             school to another school. The width at each end of the connection represent the number of graduates
             participating in this flow. </p>
-          <div class='tableauPlaceholder' id='viz1575057903305' style='position: relative'><noscript><a href='#'><img
+          <div class='tableauPlaceholder' id='viz1575057903305' style='position: relative;'><noscript><a href='#'><img
                   alt=' '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRTDJPD87&#47;1_rss.png'
                   style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
@@ -430,8 +431,9 @@
               <param name='display_overlay' value='yes' />
               <param name='display_count' value='yes' />
               <param name='filter' value='publish=yes' /></object></div>
-          <script
-            type='text/javascript'>                    var divElement = document.getElementById('viz1575057903305'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1575057903305'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.7) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+          </script>
           <h4><b>Which school has cultivated the most professors?</b></h4>
           <p>The following pie chart shows the number of Ph.D graduate for each school that end up being a professor in
             a
@@ -511,7 +513,7 @@
               <param name='display_count' value='yes' />
               <param name='filter' value='publish=yes' /></object></div>
           <script
-            type='text/javascript'>                    var divElement = document.getElementById('viz1575095289172'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '777px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            type='text/javascript'>                    var divElement = document.getElementById('viz1575095289172'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '98%'; vizElement.style.height = '777px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           <br /><br />
           <p><span style="font-size: 20px;"><b>Which school will you teach at?</b></span></p>
           <p>You can select your Bachelors school, Doctorate school and your sub-field. We will predict the possible

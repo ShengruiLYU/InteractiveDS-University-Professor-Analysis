@@ -47,6 +47,10 @@ h6 {
 
 /* Back to top button */
 
+.container {
+  width: 60%;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -194,7 +198,7 @@ h6 {
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 40x;
   font-weight: 700;
 }
 
