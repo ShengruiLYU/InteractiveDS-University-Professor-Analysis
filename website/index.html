@@ -99,13 +99,16 @@
           </br>
           <h3><b>Introduction</b></h3>
           <p>Education is one of the most important parts of a country's development. In this project, we provide
-            insights of American post-secondary education by exploring datasets of universities and professors. 
-            
-            To better understand US post-secondary education, we create two exploratory analysis. The first one focues on 
-            understanding US universities' general information and the second one focues on where do top universities' 
-            professores graduate from. For the second part, we also built a machine learning model to predict Ph.D. students' future workplace 
-            based on professors' education background. An abundant number of interactive visualizations are made to answer questions about universities and professors.
-            
+            insights of American post-secondary education by exploring datasets of universities and professors.
+
+            To better understand US post-secondary education, we create two exploratory analysis. The first one focues
+            on
+            understanding US universities' general information and the second one focues on where do top universities'
+            professores graduate from. For the second part, we also built a machine learning model to predict Ph.D.
+            students' future workplace
+            based on professors' education background. An abundant number of interactive visualizations are made to
+            answer questions about universities and professors.
+
           </p>
         </header>
         <br /><br />
@@ -420,11 +423,17 @@
         <br /><br />
         <div>
           <h4><b>Where do the professors study for their Ph.D. degree?</b></h4>
-          <p>To answer this question, we created several visualizations. The first one is the following heatmap. </p><p>The row are the schools where the professors are currently teaching at. The columns are the schools where the professors finished their doctorate degree. The schools are ranked by their ranking. The color encodes the number of professors who studied at the university represented by the colunms and now teaching at the university represented by the row. 
-          </p> <p>As we can see from the following heat map, dark color cells are
+          <p>To answer this question, we created several visualizations. The first one is the following heatmap. </p>
+          <p>The row are the schools where the professors are currently teaching at. The columns are the schools where
+            the professors finished their doctorate degree. The schools are ranked by their ranking. The color encodes
+            the number of professors who studied at the university represented by the columns and now teaching at the
+            university represented by the row.
+          </p>
+          <p>As we can see from the following heat map, dark color cells are
             concentrated around the upper-left corner, top few rows and diagonal. That means top CS schools graduate
-            more Ph.D.s that end up in a top 50 institute, and a Ph.D. in top universities usually become a professor in a
-            top university. The dark color in the diagonal means there is a significant portion of P stayed in their
+            more Ph.D.s that end up in a top 50 institute, and a Ph.D. in top universities usually become a professor in
+            a
+            top university. The dark color in the diagonal means there is a significant portion of Ph.D. stayed in their
             own university as a professor.</p>
           <p>You can interact with the following chart by putting your mouse on each cell to show the details of each
             cell.</p>
@@ -449,11 +458,16 @@
           <script
             type='text/javascript'>                    var divElement = document.getElementById('viz1575056511739'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           <br></br>
-          <p>However the heatmap cannot clearly reveal the transitions of the graduates between different shcools. Therefore we decide to add the following chord diagram to show the detailed information of the career path of the graduate within Top 10 (according to U.S. news)
-            CS school as a complement of our heat map. Each connection represent the graduates who got their Ph.D degree from one
-            school and teaching at another school. The width at each end of the connection represent the number of graduates
+          <p>However, the heatmap cannot clearly reveal the transitions of the graduates between different schools.
+            Therefore, we decide to add the following chord diagram to show the detailed information of the career path
+            of the graduate within Top 20 (according to U.S. news)
+            CS school as a complement of our heat map. Each connection represents the graduates who got their Ph.D degree
+            from one
+            school and teaches at another school. The width at each end of the connection represent the number of
+            graduates
             participating in this flow. </p>
-            <p>For example, we can see that the background of the professors teaching at MIT are quite diverse, a large portion of them came from CMU, Georgia Tech, University of Washington and University of Michigan. And at the same time, a lot of professors teaching at MIT finshed their doctorate at MIT itself. </p>
+          <p>For example, we can see that the background of the professors teaching at Stanford are quite diverse, a large
+            portion of them came from different schools such as MIT, CMU, UC Berkeley. </p>
           <div class='tableauPlaceholder' id='viz1575057903305' style='position: relative;'><noscript><a href='#'><img
                   alt=' '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RR&#47;RRTDJPD87&#47;1_rss.png'
@@ -475,10 +489,13 @@
           </script>
           <br /><br />
           <h4><b>Which school has cultivated the most professors?</b></h4>
-          <p>To answer this question, we create a pie chart and a stacked bar chart.</p> <p>The following pie chart shows the percentage of Ph.D graduate for each school who end up being a professor in
+          <p>To answer this question, we create a pie chart and a stacked bar chart.</p>
+          <p>The following pie chart shows the percentage of Ph.D graduate for each school who end up being a professor
+            in
             a
-            top 50 cs university. The color encoding for each shcool are shown on the right.</p> <p>It's not suprise that MIT, Berkeley, Stanford and CMU took the top spot as they have
-            large CS departments and the Ph.D. students are excellent.</p>
+            top 50 cs university. The color encoding for each school are shown on the right.</p>
+          <p>It's not surprising that MIT, Berkeley, Stanford and CMU took the top spot as they have
+            large CS departments and have a good reputation in the CS field.</p>
           <p>You can interact with the following pie chart by putting your mouse on each part to show the details, and
             clicking the school name on the right to highlight the school.</p>
           <div class='tableauPlaceholder' id='viz1574923244590' style='position: relative'><noscript><a href='#'><img
@@ -505,7 +522,10 @@
           <br></br>
           <p>The following stacked bar chart will give you more detailed information of the distribution of the
             sub-fields of Ph.D.
-            graduates for each school. The total hight of the bar represent the total number of professors in that school. And the color for the portions of each bar encodes the sub-fields in computer science. </p> <p> For example, we can see that CMU has the most CS Ph.D. graduate, and within CMU, Human-Computer Interaction
+            graduates for each school. The total height of the bar represent the total number of professors in that
+            school. And the color for the portions of each bar encodes the sub-fields in computer science. </p>
+          <p> For example, we can see that CMU has the most CS Ph.D. graduate, and within CMU, Human-Computer
+            Interaction
             has the most graduates! :)</p>
           <p>Again, you could interact with the chart by putting your mouse on the graph to show the details, and using
             the filter and the highlighter on the right.</p>
@@ -532,14 +552,23 @@
 
 
           <br /><br />
-          <h4><b>What is the trend of new faculty's field and rank among join year?</b></h4>
+          <h4><b>What is the trend of new faculty's field and rank? </b></h4>
           <p>
-            To answer this question, we create the following two graphs to show the trend of new faculty's rank and field. In the first graph, we plot the changes in number of professors with different titles/ranks with respect to their join year. In the second graph, we plot the changes in number of professors with different sub-fields with respect to their join year.<br/> <br/>
-The number of new faculties slowly increased from the 1950s and reach a rapid increase in 2000. Before 1998, there are no more than 40 CS faculties joined each year, while there are more than 60 after 2000. And there is a peak in 2013. The data after 2013 may be incomplete.  <br /><br />
+            To answer this question, we create the following two graphs to show the trend of new faculty's rank and
+            field. In the first graph, we plot the changes in number of professors with different titles/ranks with
+            respect to their join year. In the second graph, we plot the changes in number of professors with different
+            sub-fields with respect to their join year.<br /> <br />
+            The number of new faculties slowly increased from the 1950s and reach a rapid increase in 2000. Before 1998,
+            there are no more than 40 CS faculties joined each year, while there are more than 60 after 2000. And there
+            is a peak in 2013. The data after 2013 may be incomplete. <br /><br />
 
-Before 2000, nearly 80% of the new faculties are full-time professors. After that, there are an increasing number of associate and assistant professors each year and fewer full-time professors. Except for full-time, associate and assistant professors, other types of rank only account for a small percentage of new faculties. <br /><br />
+            Before 2000, nearly 80% of the new faculties are full-time professors now. The professors joined after 2006 are mostly associate and assistant professors when the data is collected.<br /><br />
 
-As for the field of new faculties, the second graph shows there is a nearly uniform distribution among each sub-field. But it is obvious that the AI-related sub-fields, each as Artifical Intelligence, Computer Vision, Machine Learning, increased compared to the 20th century. Another increasing sub-field is Bioinformatics and Computational Biology. Algorithms and Theory has the largest number of new faculties in most years. <br /><br />  </p>
+            As for the field of new faculties, the second graph shows there is a nearly uniform distribution among each
+            sub-field. But it is obvious that the AI-related sub-fields, each as Artifical Intelligence, Computer
+            Vision, Machine Learning, increased compared to the 20th century. Another increasing sub-field is
+            Bioinformatics and Computational Biology. Algorithms and Theory has the largest number of new faculties in
+            most years. <br /><br /> </p>
           <div class='tableauPlaceholder' id='viz1575095289172' style='position: relative'><noscript><a href='#'><img
                   alt=' '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Professor_15750950737370&#47;Dashboard1&#47;1_rss.png'
@@ -752,7 +781,7 @@ As for the field of new faculties, the second graph shows there is a nearly unif
         <p>
           According to our previous analysis on university dataset and computer science professor dataset, we found
           several
-          important conclusion:<br/>
+          important conclusion:<br />
           <ol>
             <li>Universities tend to locate at wealthy and developed states with large population.</li>
 
@@ -766,7 +795,7 @@ As for the field of new faculties, the second graph shows there is a nearly unif
               the hottest area in recent years for CS professors.</li>
           </ol>
           <br />Based on our conclusions, we propose several suggestions
-          for american post-secondary education development:<br/><br/>
+          for american post-secondary education development:<br /><br />
           <ol>
             <li>It is necessary for governments to vigorously support poor
               states to develop their post-secondary education system because of the mutual improvement between
