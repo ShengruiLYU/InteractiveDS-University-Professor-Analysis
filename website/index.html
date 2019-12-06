@@ -434,7 +434,7 @@
           <script
             type='text/javascript'>                    var divElement = document.getElementById('viz1575056511739'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           <br></br>
-          <p>After gathering the feedback from our project part 1, we decide to add the following chord diagram to show the detailed information of the career path of the graduate within Top 10 (according to U.S. news)
+          <p>However the heatmap cannot clearly reveal the transitions of the graduates between different shcools. Therefore we decide to add the following chord diagram to show the detailed information of the career path of the graduate within Top 10 (according to U.S. news)
             CS school as a complement of our heat map. Each connection represent the graduates who got their Ph.D degree from one
             school and teaching at another school. The width at each end of the connection represent the number of graduates
             participating in this flow. </p>
@@ -493,7 +493,7 @@
             graduates for each school. The total hight of the bar represent the total number of professors in that school. And the color for the portions of each bar encodes the sub-fields in computer science. </p> <p> For example, we can see that CMU has the most CS Ph.D. graduate, and within CMU, Human-Computer Interaction
             has the most graduates! :)</p>
           <p>Again, you could interact with the chart by putting your mouse on the graph to show the details, and using
-            the filter on the right.</p>
+            the filter and the highlighter on the right.</p>
           <div class='tableauPlaceholder' id='viz1575055573416' style='position: relative'><noscript><a href='#'><img
                   alt=' '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StackedBar_15750555124090&#47;Sheet1&#47;1_rss.png'
@@ -517,9 +517,9 @@
 
 
           <br /><br />
-          <h4><b>What is the distribution of new faculty's field and rank among join year?</b></h4>
+          <h4><b>What is the trend of new faculty's field and rank among join year?</b></h4>
           <p>
-            The following graphs show the distribution of new faculty's join year with field and rank. 
+            To answer this question, we create the following two graphs to show the trend of new faculty's rank and field. In the first graph, we plot the changes in number of professors with different titles/ranks with respect to their join year. In the second graph, we plot the changes in number of professors with different sub-fields with respect to their join year.<br/> <br/>
 The number of new faculties slowly increased from the 1950s and reach a rapid increase in 2000. Before 1998, there are no more than 40 CS faculties joined each year, while there are more than 60 after 2000. And there is a peak in 2013. The data after 2013 may be incomplete.  <br /><br />
 
 Before 2000, nearly 80% of the new faculties are full-time professors. After that, there are an increasing number of associate and assistant professors each year and fewer full-time professors. Except for full-time, associate and assistant professors, other types of rank only account for a small percentage of new faculties. <br /><br />
@@ -546,7 +546,7 @@ As for the field of new faculties, the second graph shows there is a nearly unif
           <script
             type='text/javascript'>                    var divElement = document.getElementById('viz1575095289172'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '98%'; vizElement.style.height = '777px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           <br /><br />
-          <p><span style="font-size: 20px;"><b>Which school will you teach at?</b></span></p>
+          <h4><b>Which school will you teach at?</b></h4>
           <p>You can select your Bachelors school, Doctorate school and your sub-field. We will predict the possible
             university that you will teach at in the future using Naive Bayes Networks based on the professor dataset.
           </p>
